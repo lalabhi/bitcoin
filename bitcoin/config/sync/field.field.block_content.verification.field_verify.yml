@@ -1,0 +1,31 @@
+uuid: 87a851b6-1c2a-430d-b8e9-c43a2de92eac
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.verification
+    - field.storage.block_content.field_verify
+    - paragraphs.paragraphs_type.picture_name_description
+  module:
+    - entity_reference_revisions
+id: block_content.verification.field_verify
+field_name: field_verify
+entity_type: block_content
+bundle: verification
+label: verify
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      picture_name_description: picture_name_description
+    target_bundles_drag_drop:
+      picture_name_description:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions
