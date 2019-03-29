@@ -1,0 +1,14 @@
+uuid: f5fcd7b1-a507-4508-bbbc-63373271702e
+name: 'HASH COIN'
+mail: test@mail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
