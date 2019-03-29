@@ -1,0 +1,59 @@
+uuid: 3bf00220-fdad-49be-86ed-a582d9379fd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.money_type
+    - field.field.block_content.money_type.body
+    - field.field.block_content.money_type.field_button_text
+    - field.field.block_content.money_type.field_money
+    - field.field.block_content.money_type.field_subtitle
+    - field.field.block_content.money_type.field_title
+  module:
+    - image
+    - text
+id: block_content.money_type.default
+targetEntityType: block_content
+bundle: money_type
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_button_text:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_money:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_subtitle:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
