@@ -1,0 +1,8 @@
+uuid: 8edd08b6-a088-469e-874c-34c23063bc90
+langcode: en
+status: true
+dependencies: {  }
+id: money_type
+label: 'money type'
+revision: 0
+description: 'provides new kind of money'

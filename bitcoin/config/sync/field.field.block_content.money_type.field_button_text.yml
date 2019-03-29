@@ -1,0 +1,21 @@
+uuid: 47162346-d43c-4e62-8170-217d7bc4bbb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.money_type
+    - field.storage.block_content.field_button_text
+  module:
+    - text
+id: block_content.money_type.field_button_text
+field_name: field_button_text
+entity_type: block_content
+bundle: money_type
+label: 'button text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
