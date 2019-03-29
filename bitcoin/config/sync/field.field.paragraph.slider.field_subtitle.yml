@@ -1,0 +1,21 @@
+uuid: 933f5953-b16f-40be-9fc1-5feea05343d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subtitle
+    - paragraphs.paragraphs_type.slider
+  module:
+    - text
+id: paragraph.slider.field_subtitle
+field_name: field_subtitle
+entity_type: paragraph
+bundle: slider
+label: subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,21 @@
+uuid: 7be37220-778e-4ca3-9bc8-78ea8b562399
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.slider
+  module:
+    - text
+id: node.slider.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: slider
+label: SubTitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

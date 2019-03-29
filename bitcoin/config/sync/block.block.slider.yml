@@ -1,0 +1,25 @@
+uuid: c3ae47ba-bb1c-41b9-b3c0-9d2534018de3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:slider:74b179a1-c59d-4097-a46d-37894af8c709'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: slider
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:74b179a1-c59d-4097-a46d-37894af8c709'
+settings:
+  id: 'block_content:74b179a1-c59d-4097-a46d-37894af8c709'
+  label: Slider
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

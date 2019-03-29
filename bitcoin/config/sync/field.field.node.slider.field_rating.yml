@@ -1,0 +1,21 @@
+uuid: a983e156-3fb6-4888-a573-153791473c27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.slider
+  module:
+    - text
+id: node.slider.field_rating
+field_name: field_rating
+entity_type: node
+bundle: slider
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

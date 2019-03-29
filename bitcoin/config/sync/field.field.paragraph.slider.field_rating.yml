@@ -1,0 +1,19 @@
+uuid: d6e7ae42-a86f-4e51-8026-3029281d32e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rating
+    - paragraphs.paragraphs_type.slider
+id: paragraph.slider.field_rating
+field_name: field_rating
+entity_type: paragraph
+bundle: slider
+label: rating
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
