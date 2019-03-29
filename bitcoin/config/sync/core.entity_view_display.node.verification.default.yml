@@ -1,0 +1,30 @@
+uuid: 0620fa3c-8dcf-4e07-9429-c2d32c0263f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.verification.field_verification
+    - node.type.verification
+  module:
+    - entity_reference_revisions
+    - user
+id: node.verification.default
+targetEntityType: node
+bundle: verification
+mode: default
+content:
+  field_verification:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

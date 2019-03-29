@@ -1,0 +1,24 @@
+uuid: bfcd0e6e-9d93-476f-8a89-3acb32976715
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.verification
+    - field.field.block_content.verification.field_verify
+  module:
+    - entity_reference_revisions
+id: block_content.verification.default
+targetEntityType: block_content
+bundle: verification
+mode: default
+content:
+  field_verify:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }
