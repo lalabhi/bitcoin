@@ -1,0 +1,8 @@
+uuid: b995c8a0-3501-4276-b519-e08fa2e172fa
+langcode: en
+status: true
+dependencies: {  }
+id: money_type
+label: 'Money Type'
+revision: 0
+description: ''

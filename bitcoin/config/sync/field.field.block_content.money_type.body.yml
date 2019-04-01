@@ -1,0 +1,22 @@
+uuid: 096714f4-cd10-4f73-acf6-79dd1748d3f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.money_type
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.money_type.body
+field_name: body
+entity_type: block_content
+bundle: money_type
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,4 +1,4 @@
-uuid: 561bdf10-075a-44de-a406-388f9f08f3c0
+uuid: b7ec53f3-086a-4802-a297-5a5b3e06da4f
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
-id: block_content.field_verify
-field_name: field_verify
+id: block_content.field_value
+field_name: field_value
 entity_type: block_content
 type: entity_reference_revisions
 settings:
