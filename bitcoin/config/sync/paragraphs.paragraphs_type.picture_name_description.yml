@@ -1,9 +1,0 @@
-uuid: 988b7ce3-3d0e-4851-a725-e76f826c62bf
-langcode: en
-status: true
-dependencies: {  }
-id: picture_name_description
-label: picture-name-description
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

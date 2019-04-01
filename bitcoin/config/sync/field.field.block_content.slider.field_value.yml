@@ -1,18 +1,18 @@
-uuid: 87a851b6-1c2a-430d-b8e9-c43a2de92eac
+uuid: 769a7ff9-28ad-4b96-9c50-fca538cdd7b8
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.verification
-    - field.storage.block_content.field_verify
-    - paragraphs.paragraphs_type.picture_name_description
+    - block_content.type.slider
+    - field.storage.block_content.field_value
+    - paragraphs.paragraphs_type.slider
   module:
     - entity_reference_revisions
-id: block_content.verification.field_verify
-field_name: field_verify
+id: block_content.slider.field_value
+field_name: field_value
 entity_type: block_content
-bundle: verification
-label: verify
+bundle: slider
+label: value
 description: ''
 required: false
 translatable: false
@@ -23,9 +23,12 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      picture_name_description: picture_name_description
+      slider: slider
     target_bundles_drag_drop:
-      picture_name_description:
+      slider:
         enabled: true
-        weight: 2
+        weight: 3
+      verification:
+        weight: 4
+        enabled: false
 field_type: entity_reference_revisions

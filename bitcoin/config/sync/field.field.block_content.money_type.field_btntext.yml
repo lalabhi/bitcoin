@@ -1,0 +1,19 @@
+uuid: 89df3629-f02b-4e5b-903c-ebb7d08bf3f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.money_type
+    - field.storage.block_content.field_btntext
+id: block_content.money_type.field_btntext
+field_name: field_btntext
+entity_type: block_content
+bundle: money_type
+label: btntext
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

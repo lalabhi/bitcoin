@@ -1,15 +1,15 @@
-uuid: aaba3151-8ff3-4a0e-a35e-120e16ae1b50
+uuid: c3943831-0964-4bab-aedf-9691a5c4b8b9
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_title
-    - paragraphs.paragraphs_type.picture_name_description
-id: paragraph.picture_name_description.field_title
+    - paragraphs.paragraphs_type.verification
+id: paragraph.verification.field_title
 field_name: field_title
 entity_type: paragraph
-bundle: picture_name_description
-label: Title
+bundle: verification
+label: title
 description: ''
 required: false
 translatable: false

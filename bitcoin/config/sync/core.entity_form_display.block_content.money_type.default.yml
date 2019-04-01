@@ -1,12 +1,12 @@
-uuid: 187176ff-ef0c-4a3d-be10-a79a7d427126
+uuid: 707bfc0c-4f9a-4e3e-bc5d-4856aae9821d
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.money_type
     - field.field.block_content.money_type.body
-    - field.field.block_content.money_type.field_button_text
-    - field.field.block_content.money_type.field_money
+    - field.field.block_content.money_type.field_btntext
+    - field.field.block_content.money_type.field_image
     - field.field.block_content.money_type.field_subtitle
     - field.field.block_content.money_type.field_title
     - image.style.thumbnail
@@ -27,15 +27,15 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
-  field_button_text:
+  field_btntext:
     weight: 30
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: string_textfield
     region: content
-  field_money:
+  field_image:
     weight: 29
     settings:
       progress_indicator: throbber
