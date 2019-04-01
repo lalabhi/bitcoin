@@ -11,7 +11,7 @@ id: paragraph.slider.field_person
 field_name: field_person
 entity_type: paragraph
 bundle: slider
-label: person
+label: image
 description: ''
 required: false
 translatable: false

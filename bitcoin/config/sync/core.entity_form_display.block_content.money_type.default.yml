@@ -67,4 +67,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_button_text: true
+  field_money: true
