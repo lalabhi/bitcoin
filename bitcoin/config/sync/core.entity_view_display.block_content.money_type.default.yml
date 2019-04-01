@@ -57,6 +57,4 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-hidden:
-  field_button_text: true
-  field_money: true
+hidden: {  }

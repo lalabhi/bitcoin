@@ -7,7 +7,6 @@ dependencies:
     - field.field.paragraph.slider.field_name
     - field.field.paragraph.slider.field_person
     - field.field.paragraph.slider.field_rating
-    - field.field.paragraph.slider.field_subtitle
     - image.style.thumbnail
     - paragraphs.paragraphs_type.slider
   module:
@@ -47,14 +46,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
-    region: content
-  field_subtitle:
-    weight: 4
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
     region: content
 hidden:
   created: true

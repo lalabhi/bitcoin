@@ -1,17 +1,17 @@
-uuid: a1f0807b-ec21-41f0-b691-cbcfaa5eb8af
+uuid: 11732cea-758e-453a-a3a4-39d015a7e343
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_person
-    - paragraphs.paragraphs_type.slider
+    - field.storage.node.icon
+    - node.type.news
   module:
     - image
-id: paragraph.slider.field_person
-field_name: field_person
-entity_type: paragraph
-bundle: slider
-label: person
+id: node.news.icon
+field_name: icon
+entity_type: node
+bundle: news
+label: icon
 description: ''
 required: false
 translatable: false

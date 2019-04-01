@@ -9,7 +9,7 @@ id: paragraph.slider.field_name
 field_name: field_name
 entity_type: paragraph
 bundle: slider
-label: title
+label: name
 description: ''
 required: true
 translatable: false
