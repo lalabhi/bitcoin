@@ -1,0 +1,24 @@
+uuid: e80144d5-136c-4aeb-98c2-271ea7b8dc85
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.branding
+    - field.field.block_content.branding.field_brand
+  module:
+    - image
+id: block_content.branding.default
+targetEntityType: block_content
+bundle: branding
+mode: default
+content:
+  field_brand:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

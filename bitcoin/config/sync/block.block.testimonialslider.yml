@@ -1,0 +1,25 @@
+uuid: 0a2a8941-11e7-48df-8765-c541c5a079ba
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:slider:5b6f73c6-8299-4657-9503-8425c9733e14'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: testimonialslider
+theme: bartik
+region: highlighted
+weight: -6
+provider: null
+plugin: 'block_content:5b6f73c6-8299-4657-9503-8425c9733e14'
+settings:
+  id: 'block_content:5b6f73c6-8299-4657-9503-8425c9733e14'
+  label: 'Testimonial Slider'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

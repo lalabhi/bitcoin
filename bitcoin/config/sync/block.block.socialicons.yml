@@ -1,0 +1,28 @@
+uuid: 9186ff5f-ad35-42f3-841d-2c5630ae4607
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_icons
+  theme:
+    - bartik
+id: socialicons
+theme: bartik
+region: secondary_menu
+weight: -7
+provider: null
+plugin: social_icons_block
+settings:
+  id: social_icons_block
+  label: 'Social Icons'
+  provider: social_icons
+  label_display: '0'
+  facebook_icon: www.facebook.com
+  twitter_icon: www.twitter.com
+  google_plus_icon: www.plus.google.com
+  instragram_icon: ''
+  telegram_icon: ''
+  linkedin_icon: www.linkedin.com
+  pinterest_icon: ''
+  youtube_icon: www.youtube.com
+visibility: {  }
