@@ -1,0 +1,6 @@
+name: Feedback And Currency Converter
+type: module
+description: module for the feedback form and currency converter
+core: 8.x
+dependencies:
+  - block
