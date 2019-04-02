@@ -1,0 +1,19 @@
+core: 8.x
+type: theme
+base theme: cog
+
+name: 'mycog'
+description: 'subtheme mycog'
+package: 'Custom'
+
+regions:
+  header: Header
+  branding: Navigation
+  pre_content: Main slider 
+  content: Post Content
+  sidebar_first: Content
+  sidebar_second: 'Footer first'
+  post_content: 'Footer second'
+
+libraries:
+  - mycog/style
