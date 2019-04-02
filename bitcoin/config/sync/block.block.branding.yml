@@ -1,0 +1,25 @@
+uuid: d8141446-3934-41fb-90fe-533a9cd89687
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:branding:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: branding
+theme: bartik
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+settings:
+  id: 'block_content:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+  label: Branding
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

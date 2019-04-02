@@ -1,0 +1,38 @@
+uuid: acaed9f9-d976-4f1c-9c82-ead1ad9a1e29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icons.field_iconimg
+    - field.field.paragraph.icons.field_iconlink
+    - paragraphs.paragraphs_type.icons
+  module:
+    - image
+    - link
+id: paragraph.icons.default
+targetEntityType: paragraph
+bundle: icons
+mode: default
+content:
+  field_iconimg:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_iconlink:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

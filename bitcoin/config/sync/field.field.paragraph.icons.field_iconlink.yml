@@ -1,0 +1,23 @@
+uuid: 1298a2a6-9138-485a-ae50-c9e9640a46b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_iconlink
+    - paragraphs.paragraphs_type.icons
+  module:
+    - link
+id: paragraph.icons.field_iconlink
+field_name: field_iconlink
+entity_type: paragraph
+bundle: icons
+label: iconlink
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

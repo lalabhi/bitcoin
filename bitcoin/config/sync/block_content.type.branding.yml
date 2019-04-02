@@ -1,0 +1,8 @@
+uuid: ac3c2f59-a857-4696-bbf8-3addd4733085
+langcode: en
+status: true
+dependencies: {  }
+id: branding
+label: Branding
+revision: 0
+description: 'Branding of the site'
