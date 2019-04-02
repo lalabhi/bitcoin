@@ -1,0 +1,22 @@
+uuid: 6e0533ff-5432-43a5-94c5-ed976d9f0520
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - mycog
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: mycog_messages
+theme: mycog
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 31e06f72-3150-4546-8b2f-c6455a39c7e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_view
+  module:
+    - views
+  theme:
+    - cog
+id: cog_views_block__news_view_block_1
+theme: cog
+region: branding
+weight: 0
+provider: null
+plugin: 'views_block:news_view-block_1'
+settings:
+  id: 'views_block:news_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,17 +1,17 @@
-uuid: 562087b7-989b-4c38-a8cb-7ec2f690c417
+uuid: 34405143-afcc-4ce5-a4d8-319157cb07c7
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.money_type
-    - field.storage.block_content.field_money
+    - field.storage.node.field_bg_image
+    - node.type.main_slider
   module:
     - image
-id: block_content.money_type.field_money
-field_name: field_money
-entity_type: block_content
-bundle: money_type
-label: 'money type image'
+id: node.main_slider.field_bg_image
+field_name: field_bg_image
+entity_type: node
+bundle: main_slider
+label: bg_image
 description: ''
 required: false
 translatable: false
