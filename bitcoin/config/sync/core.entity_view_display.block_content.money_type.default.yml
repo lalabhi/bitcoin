@@ -5,7 +5,7 @@ dependencies:
   config:
     - block_content.type.money_type
     - field.field.block_content.money_type.body
-    - field.field.block_content.money_type.field_btntext
+    - field.field.block_content.money_type.field_button_text
     - field.field.block_content.money_type.field_image
     - field.field.block_content.money_type.field_subtitle
     - field.field.block_content.money_type.field_title
@@ -23,14 +23,6 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_btntext:
-    weight: 4
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
     region: content
   field_image:
     weight: 3
@@ -59,4 +51,3 @@ content:
     region: content
 hidden:
   field_button_text: true
-  field_money: true

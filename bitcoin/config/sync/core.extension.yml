@@ -56,6 +56,8 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
+  cog: 0
+  mycog: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
