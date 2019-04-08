@@ -1,17 +1,16 @@
-uuid: 0aa60da2-af7b-42ff-b1c7-a10787723af4
+uuid: 479b3046-9786-4497-a39f-f51b385e426f
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_rating
-field_name: field_rating
+    - starrating
+id: paragraph.field_sta
+field_name: field_sta
 entity_type: paragraph
-type: decimal
-settings:
-  precision: 10
-  scale: 1
-module: core
+type: starrating
+settings: {  }
+module: starrating
 locked: false
 cardinality: 1
 translatable: true

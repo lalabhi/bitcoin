@@ -1,0 +1,23 @@
+uuid: 0705e5d3-f420-47e7-a0ac-f643f187baed
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.newsletter
+  module:
+    - contact_block
+  theme:
+    - mycog
+id: contactblock
+theme: mycog
+region: post_content
+weight: -9
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: newsletter
+visibility: {  }

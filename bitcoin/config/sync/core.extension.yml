@@ -3,6 +3,7 @@ module:
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
   automated_cron: 0
+  better_search: 0
   big_pipe: 0
   blazy: 0
   blazy_ui: 0
@@ -14,6 +15,7 @@ module:
   comment: 0
   config: 0
   contact: 0
+  contact_block: 0
   contextual: 0
   ctools: 0
   datetime: 0
@@ -43,15 +45,17 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  responsive_favicons: 0
   search: 0
   shortcut: 0
-  social_icons: 0
-  superfish: 0
   slick: 0
   slick_devel: 0
   slick_extras: 0
   slick_ui: 0
   slick_views: 0
+  social_icons: 0
+  starrating: 0
+  superfish: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -60,6 +64,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  we_megamenu: 0
   menu_link_content: 1
   views: 10
   paragraphs: 11
