@@ -1,0 +1,12 @@
+uuid: a0f8c705-ddf8-4c30-aeef-9ad48a63c675
+langcode: en
+status: true
+dependencies: {  }
+id: newsletter
+label: Newsletter
+recipients:
+  - trupti.diwani@qed42.com
+reply: ''
+weight: 0
+message: 'Message has been sent.'
+redirect: ''

@@ -6,12 +6,13 @@ dependencies:
     - field.field.paragraph.slider.field_about
     - field.field.paragraph.slider.field_name
     - field.field.paragraph.slider.field_person
-    - field.field.paragraph.slider.field_rating
+    - field.field.paragraph.slider.field_sta
     - field.field.paragraph.slider.field_subtitle
     - image.style.thumbnail
     - paragraphs.paragraphs_type.slider
   module:
     - image
+    - starrating
 id: paragraph.slider.default
 targetEntityType: paragraph
 bundle: slider
@@ -41,12 +42,11 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_rating:
-    weight: 2
-    settings:
-      placeholder: ''
+  field_sta:
+    weight: 5
+    settings: {  }
     third_party_settings: {  }
-    type: number
+    type: starrating
     region: content
   field_subtitle:
     weight: 4

@@ -1,0 +1,24 @@
+uuid: b0673b85-93f6-44cd-a8d2-4dc0f60d57d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sta
+    - paragraphs.paragraphs_type.slider
+  module:
+    - starrating
+id: paragraph.slider.field_sta
+field_name: field_sta
+entity_type: paragraph
+bundle: slider
+label: 'Star rating'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '4'
+default_value_callback: ''
+settings:
+  max_value: '5'
+field_type: starrating
