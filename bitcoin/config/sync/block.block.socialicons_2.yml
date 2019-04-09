@@ -1,0 +1,28 @@
+uuid: 4a3fc92b-9888-4a5e-8d0a-b84259562ed2
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_icons
+  theme:
+    - mycog
+id: socialicons_2
+theme: mycog
+region: header
+weight: 0
+provider: null
+plugin: social_icons_block
+settings:
+  id: social_icons_block
+  label: 'Social Icons'
+  provider: social_icons
+  label_display: '0'
+  facebook_icon: www.facebook.com
+  twitter_icon: www.twitter.com
+  google_plus_icon: www.googleplus.com
+  instragram_icon: ''
+  telegram_icon: ''
+  linkedin_icon: www.linkedin.com
+  pinterest_icon: ''
+  youtube_icon: www.youtube.com
+visibility: {  }
