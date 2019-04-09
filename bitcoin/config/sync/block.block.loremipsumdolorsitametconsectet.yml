@@ -6,7 +6,7 @@ dependencies:
     - mycog
 id: loremipsumdolorsitametconsectet
 theme: mycog
-region: sidebar_first
+region: header
 weight: 0
 provider: null
 plugin: 'block_content:d7622f6a-89a6-4f71-9eb4-8e000c1def64'
