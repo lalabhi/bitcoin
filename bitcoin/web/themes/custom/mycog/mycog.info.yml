@@ -8,12 +8,12 @@ package: 'Custom'
 
 regions:
   header: Header
-  branding: Navigation
+  menubar: Menubar
   pre_content: Main slider 
-  content: Post Content
-  sidebar_first: Content
-  sidebar_second: 'Footer first'
-  post_content: 'Footer second'
+  content: Content
+  post_content: Featured Region
+  footer_first: 'Footer Primary'
+  footer_second: 'Footer Secondary'
 
 libraries:
   - mycog/style
