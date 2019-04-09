@@ -1,0 +1,20 @@
+uuid: b9e417d7-adf2-4a49-b3fe-d10404794734
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mycog
+id: poweredbydrupal
+theme: mycog
+region: post_content
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: '@COPYRIGHT 2017.ALL RIGHTS RESERVED'
+  provider: system
+  label_display: visible
+visibility: {  }

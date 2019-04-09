@@ -1,0 +1,25 @@
+uuid: 322f6bc7-7fc2-44a8-97b7-f09ca898174a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f73c10dd-2729-4a6e-851d-c15323715233'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: addressblock
+theme: mycog
+region: post_content
+weight: -11
+provider: null
+plugin: 'block_content:f73c10dd-2729-4a6e-851d-c15323715233'
+settings:
+  id: 'block_content:f73c10dd-2729-4a6e-851d-c15323715233'
+  label: 'Address Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
