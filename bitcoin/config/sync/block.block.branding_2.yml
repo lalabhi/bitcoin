@@ -1,0 +1,25 @@
+uuid: 175ddd91-848b-4ae8-ac9f-744a25b132a0
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:branding:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: branding_2
+theme: mycog
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+settings:
+  id: 'block_content:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+  label: Branding
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

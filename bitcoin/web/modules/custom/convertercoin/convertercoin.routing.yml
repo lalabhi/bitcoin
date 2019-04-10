@@ -1,0 +1,7 @@
+convert.form:
+  path: '/convert'
+  defaults:
+    _title: 'Convert Form'
+    _form: '\Drupal\convertercoin\Form\converter'
+  requirements:
+    _permission: 'access content'

@@ -5,7 +5,13 @@ dependencies:
   config:
     - block_content.type.basic
     - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_address
+    - field.field.block_content.basic.field_email
+    - field.field.block_content.basic.field_footerimage
+    - field.field.block_content.basic.field_footertitle
+    - image.style.thumbnail
   module:
+    - image
     - text
 _core:
   default_config_hash: e1Nu5xXAuF_QplbBUhQBPLnYWvHtDX0MkZnpuCiY8uM
@@ -23,6 +29,38 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+  field_address:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_email:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_footerimage:
+    weight: 28
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_footertitle:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   info:
     type: string_textfield
     weight: -5

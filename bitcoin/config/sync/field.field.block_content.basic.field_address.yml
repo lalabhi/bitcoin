@@ -1,0 +1,21 @@
+uuid: 651137c8-9989-4873-b8b2-c5d2095ecfc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_address
+  module:
+    - text
+id: block_content.basic.field_address
+field_name: field_address
+entity_type: block_content
+bundle: basic
+label: address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -9,7 +9,7 @@ package: 'Custom'
 regions:
   header: Header
   menubar: Menubar
-  pre_content: Main slider
+  pre_content: Main slider 
   content: Content
   post_content: Featured Region
   footer_first: 'Footer Primary'
