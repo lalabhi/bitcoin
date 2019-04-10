@@ -1,12 +1,10 @@
 <?php
 
-namespace Drupal\feedback_converter\Form;
+namespace Drupal\convertercoin\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Component\Serialization\Json;
-
-
 
 /**
  *
@@ -31,7 +29,7 @@ class converter extends FormBase {
       '#ajax' => [
         'callback' => '::promptCallback',
         'wrapper' => 'select-2',
-        'event' => 'keyup'
+        'event' => 'keyup',
       ],
       '#field_prefix' => '<div id="select-1">',
       '#field_suffix' => '</div>',
@@ -53,7 +51,7 @@ class converter extends FormBase {
       '#ajax' => [
         'callback' => '::promptCallbacker',
         'wrapper' => 'select-1',
-        'event' => 'keyup'
+        'event' => 'keyup',
       ],
       '#field_prefix' => '<div id="select-2">',
       '#field_suffix' => '</div>',
@@ -87,44 +85,46 @@ class converter extends FormBase {
     }
   }
 
+  /**
+   *
+   */
   public function promptCallback(array &$form, FormStateInterface $form_state) {
-//      var_dump($form);
-
+    // var_dump($form);
     $value1 = $form_state->getValue('first_value');
 
-    if($value1){
+    if ($value1) {
 
       $client = \Drupal::httpClient();
       $to = $form_state->getValue('first_list');
       $from = $form_state->getValue('second_list');
-      $data =$client->request('GET', 'https://free.currencyconverterapi.com/api/v6/convert?q='.$to.'_'.$from.'&compact=ultra&apiKey=4376755d238cd866b975');
+      $data = $client->request('GET', 'https://free.currencyconverterapi.com/api/v6/convert?q=' . $to . '_' . $from . '&compact=ultra&apiKey=4376755d238cd866b975');
       $response = Json::decode($data->getBody());
-      $ratio =array_values($response)[0];
-      $form['second_value']['#value'] = $value1*$ratio;
+      $ratio = array_values($response)[0];
+      $form['second_value']['#value'] = $value1 * $ratio;
       return $form['second_value'];
     }
 
-
   }
 
-  public function promptCallbacker(array &$form, FormStateInterface $form_state)
-  {
+  /**
+   *
+   */
+  public function promptCallbacker(array &$form, FormStateInterface $form_state) {
     $value2 = $form_state->getValue('second_value');
 
-    if($value2){
+    if ($value2) {
       $client = \Drupal::httpClient();
       $from = $form_state->getValue('first_list');
       $to = $form_state->getValue('second_list');
-      $data =$client->request('GET', 'https://free.currencyconverterapi.com/api/v6/convert?q='.$to.'_'.$from.'&compact=ultra&apiKey=4376755d238cd866b975');
+      $data = $client->request('GET', 'https://free.currencyconverterapi.com/api/v6/convert?q=' . $to . '_' . $from . '&compact=ultra&apiKey=4376755d238cd866b975');
       $response = Json::decode($data->getBody());
-      $ratio =array_values($response)[0];
-      $form['first_value']['#value'] = $value2*$ratio;
-      //$form['first_value']['#attributes']['id'] = 'edit-first-value';
+      $ratio = array_values($response)[0];
+      $form['first_value']['#value'] = $value2 * $ratio;
+      // $form['first_value']['#attributes']['id'] = 'edit-first-value';.
       return $form['first_value'];
 
     }
 
   }
 
-
-  }
+}
