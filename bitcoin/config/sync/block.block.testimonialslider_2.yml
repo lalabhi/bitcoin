@@ -2,10 +2,6 @@ uuid: 765cb97a-0e7f-4c76-a5f8-96e0eacb0ff6
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:slider:5b6f73c6-8299-4657-9503-8425c9733e14'
-  module:
-    - block_content
   theme:
     - mycog
 id: testimonialslider_2

@@ -1,6 +1,6 @@
 uuid: 21a38890-26ac-4ed2-91c3-222d11ae24e1
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - social_icons
