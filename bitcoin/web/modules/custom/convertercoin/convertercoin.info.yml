@@ -1,0 +1,6 @@
+name: Currency Converter
+type: module
+description: module for currency converter
+core: 8.x
+dependencies:
+  - block

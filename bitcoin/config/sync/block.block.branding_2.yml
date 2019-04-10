@@ -1,6 +1,6 @@
 uuid: 175ddd91-848b-4ae8-ac9f-744a25b132a0
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:branding:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
@@ -10,7 +10,7 @@ dependencies:
     - mycog
 id: branding_2
 theme: mycog
-region: sidebar_second
+region: header
 weight: 0
 provider: null
 plugin: 'block_content:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
