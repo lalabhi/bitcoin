@@ -1,8 +1,8 @@
 definitions:
   standard__front_page:
+    weight: -50
     menu_name: main
     parent: ''
-    weight: 0
     expanded: true
     enabled: true
 _core:

@@ -1,6 +1,6 @@
 uuid: 72bb909e-9b79-48dc-bf1d-17d9ef0195e3
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -12,8 +12,8 @@ _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: mycog_tools
 theme: mycog
-region: sidebar_first
-weight: -7
+region: header
+weight: -5
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

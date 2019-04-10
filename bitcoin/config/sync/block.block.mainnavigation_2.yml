@@ -1,0 +1,20 @@
+uuid: ea3630dd-e4c0-4216-8a84-ff18cbf5a76b
+langcode: en
+status: true
+dependencies:
+  module:
+    - we_megamenu
+  theme:
+    - mycog
+id: mainnavigation_2
+theme: mycog
+region: menubar
+weight: 0
+provider: null
+plugin: 'we_megamenu_block:main'
+settings:
+  id: 'we_megamenu_block:main'
+  label: 'Main navigation'
+  provider: we_megamenu
+  label_display: '0'
+visibility: {  }
