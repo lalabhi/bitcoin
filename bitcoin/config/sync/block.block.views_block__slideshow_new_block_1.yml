@@ -10,8 +10,13 @@ dependencies:
     - mycog
 id: views_block__slideshow_new_block_1
 theme: mycog
+<<<<<<< HEAD
 region: header
 weight: -9
+=======
+region: pre_content
+weight: 0
+>>>>>>> themefile
 provider: null
 plugin: 'views_block:slideshow_new-block_1'
 settings:

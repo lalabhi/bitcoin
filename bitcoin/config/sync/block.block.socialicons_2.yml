@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-uuid: 4a3fc92b-9888-4a5e-8d0a-b84259562ed2
-langcode: en
-status: true
-=======
 uuid: 21a38890-26ac-4ed2-91c3-222d11ae24e1
 langcode: en
 status: false
->>>>>>> 5e3404b61c48a993072b7930ebcd3075cc4a35f9
 dependencies:
   module:
     - social_icons
@@ -15,7 +9,7 @@ dependencies:
 id: socialicons_2
 theme: mycog
 region: header
-weight: -10
+weight: -8
 provider: null
 plugin: social_icons_block
 settings:

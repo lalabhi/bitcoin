@@ -13,7 +13,7 @@ _core:
 id: mycog_footer
 theme: mycog
 region: header
-weight: -7
+weight: -2
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
