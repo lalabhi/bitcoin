@@ -1,0 +1,23 @@
+{% extends "block.html.twig" %}
+{% block content %}
+<div class="main-wrapper" style="background-image:url('{{ file_url(content['#image']) }}')">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-md-6 col-lg-5">
+      <div class="header1">
+        <h3>{{ content['#title'] }}</h3>
+      </div>
+      <div class="header2">
+        <h1>{{ content['#subtitle'] }}</h1>
+      </div>
+      <div class="description">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut laboret dolore magna aliquyam erat, sed diam voluptua.</p>
+      </div>
+      <div class="form-wrapper">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+{% endblock %}
