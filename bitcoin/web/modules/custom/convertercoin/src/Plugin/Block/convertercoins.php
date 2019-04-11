@@ -23,12 +23,12 @@ class convertercoins extends BlockBase {
   public function build() {
       $image_field = $this->configuration['image'];
       $image_uri = \Drupal\file\Entity\File::load($image_field[0]);
+      $image_url = $image_uri->uri->value;
       $form = \Drupal::formBuilder()->getForm('Drupal\convertercoin\Form\converter');
-      $form['#image'] = $image_uri->uri->value;
+      $form['#image'] = $image_url;
       $form['#title'] = $this->configuration['heading'];
       $form['#subtitle'] = $this->configuration['subheading'];
       $form['#description'] = $this->configuration['description'];
-
     return $form;
   }
 
