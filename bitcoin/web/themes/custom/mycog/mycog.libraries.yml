@@ -3,3 +3,4 @@ style:
     theme:
       css/style.css: {}
       css/customRegion.css: {}
+      css/calculator.css: {}
