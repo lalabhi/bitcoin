@@ -8,8 +8,8 @@ dependencies:
     - mycog
 id: poweredbydrupal
 theme: mycog
-region: post_content
-weight: -8
+region: footer_second
+weight: -11
 provider: null
 plugin: system_powered_by_block
 settings:

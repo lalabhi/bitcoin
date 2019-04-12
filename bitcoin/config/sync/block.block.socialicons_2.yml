@@ -9,7 +9,7 @@ dependencies:
 id: socialicons_2
 theme: mycog
 region: header
-weight: -8
+weight: -11
 provider: null
 plugin: social_icons_block
 settings:

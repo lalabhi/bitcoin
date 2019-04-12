@@ -4,3 +4,4 @@ style:
       css/style.css: {}
       css/customRegion.css: {}
       css/calculator.css: {}
+      css/theming.css: {}
