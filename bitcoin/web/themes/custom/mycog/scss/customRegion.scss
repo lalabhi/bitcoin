@@ -1,0 +1,36 @@
+.header_region{
+    width:100%;
+}
+.menubar_region{
+    width:100%;
+}
+.pre_content_region{
+    width:100%;
+}
+.content_region{
+    width:100%;
+}
+.post_content_region{
+    width:100%;
+}
+.footer_first_region{
+    width:100%;
+}
+.footer_second_region{
+    width:100%;
+}
+.moneytype{
+background-size: cover; }
+.money_right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    
+    width: 45%;
+    float: right;
+}
+.money_content{
+color: blue;
+}
