@@ -14,4 +14,15 @@ slick:
   js:
     js/slick.min.js: {}
     js/custom.js: {}
-  
+    css/theming.css: {}
+    js/testslider.js: {}
+  dependencies:
+    - mycog/slick-slider
+
+slick-slider:
+  css: 
+    theme:
+      vendor/slicktest/slick/slick.css: {}
+  js: 
+    vendor/slicktest/slick/slick.min.js: {}			
+

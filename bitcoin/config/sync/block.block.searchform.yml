@@ -1,0 +1,20 @@
+uuid: c0ec0b6f-e663-4c30-9eb2-eaa802d96d2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mycog
+id: searchform
+theme: mycog
+region: header
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility: {  }
