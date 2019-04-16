@@ -1,0 +1,41 @@
+uuid: da303da8-e76a-4a38-b094-c04248992066
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.advantages.field_adv_content
+    - field.field.paragraph.advantages.field_adv_icon
+    - field.field.paragraph.advantages.field_adv_title
+    - paragraphs.paragraphs_type.advantages
+  module:
+    - fontawesome
+id: paragraph.advantages.default
+targetEntityType: paragraph
+bundle: advantages
+mode: default
+content:
+  field_adv_content:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_adv_icon:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+  field_adv_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

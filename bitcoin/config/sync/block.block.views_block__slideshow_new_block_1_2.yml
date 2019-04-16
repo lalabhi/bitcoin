@@ -1,4 +1,4 @@
-uuid: 88cfae6b-e2fb-44f3-93a7-300a834db366
+uuid: 6220c627-41b4-463f-a2dc-d04d46f8325a
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - views
   theme:
     - mycog
-id: views_block__slideshow_new_block_1
+id: views_block__slideshow_new_block_1_2
 theme: mycog
 region: pre_content
 weight: 0
@@ -18,7 +18,7 @@ settings:
   id: 'views_block:slideshow_new-block_1'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
 visibility: {  }

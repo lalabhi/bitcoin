@@ -1,14 +1,14 @@
-uuid: b398dd0b-8a1d-4ea2-948b-b29caf0709fd
+uuid: cc4f0392-67a6-496e-abeb-76e78c9178c9
 langcode: en
 status: true
 dependencies:
   module:
     - file
     - image
-    - paragraphs
-id: paragraph.field_icon
-field_name: field_icon
-entity_type: paragraph
+    - node
+id: node.field_adv_image
+field_name: field_adv_image
+entity_type: node
 type: image
 settings:
   uri_scheme: public
