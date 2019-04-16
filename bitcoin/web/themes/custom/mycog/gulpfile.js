@@ -4,7 +4,8 @@ var sass = require('gulp-sass');
 
 
 gulp.task('sass', function(){
- return gulp.src('scss/**/*.scss')
-   .pipe(sass()) // Converts Sass to CSS with gulp-sass
-   .pipe(gulp.dest('css/'))
+  return gulp.src('scss/**/*.scss')
+    .pipe(sass()) // Converts Sass to CSS with gulp-sass
+    .pipe(gulp.dest('css/'))
 });
+

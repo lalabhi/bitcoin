@@ -17,3 +17,4 @@ regions:
 
 libraries:
   - mycog/style
+  - mycog/slick

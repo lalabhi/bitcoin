@@ -28,6 +28,8 @@
         "drupal/core": "^8.6.0",
         "drupal/ctools": "^3.2",
         "drupal/devel": "^2.0",
+        "drupal/font_awesome": "^1.2",
+        "drupal/fontawesome": "^2.12",
         "drupal/owlcarousel": "^1.0@alpha",
         "drupal/owlcarousel2": "^1.0@RC",
         "drupal/paragraphs": "^1.2",

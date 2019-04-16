@@ -2,10 +2,6 @@ uuid: 322f6bc7-7fc2-44a8-97b7-f09ca898174a
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:f73c10dd-2729-4a6e-851d-c15323715233'
-  module:
-    - block_content
   theme:
     - mycog
 id: addressblock
