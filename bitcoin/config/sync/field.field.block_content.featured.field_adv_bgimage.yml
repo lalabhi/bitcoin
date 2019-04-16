@@ -1,17 +1,17 @@
-uuid: b4f0341d-c6b0-4945-b638-3ed9717ae6cb
+uuid: 564c5e44-20aa-45ff-87ea-d21176b6f7d5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_icon
-    - paragraphs.paragraphs_type.verification
+    - block_content.type.featured
+    - field.storage.block_content.field_adv_bgimage
   module:
     - image
-id: paragraph.verification.field_icon
-field_name: field_icon
-entity_type: paragraph
-bundle: verification
-label: icon
+id: block_content.featured.field_adv_bgimage
+field_name: field_adv_bgimage
+entity_type: block_content
+bundle: featured
+label: adv_bgimage
 description: ''
 required: false
 translatable: false

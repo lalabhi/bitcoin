@@ -1,6 +1,6 @@
 uuid: 0705e5d3-f420-47e7-a0ac-f643f187baed
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - contact.form.newsletter

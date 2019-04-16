@@ -1,0 +1,24 @@
+uuid: 594e993d-c341-4ce7-9762-89648fe26866
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slideshow_owl
+  module:
+    - views
+  theme:
+    - mycog
+id: views_block__slideshow_owl_block_1
+theme: mycog
+region: pre_content
+weight: 0
+provider: null
+plugin: 'views_block:slideshow_owl-block_1'
+settings:
+  id: 'views_block:slideshow_owl-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

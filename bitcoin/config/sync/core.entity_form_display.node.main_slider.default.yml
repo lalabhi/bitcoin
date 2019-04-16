@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.main_slider.body
     - field.field.node.main_slider.field_bg_image
-    - field.field.node.main_slider.field_btn_text
     - image.style.thumbnail
     - node.type.main_slider
   module:
@@ -39,14 +38,6 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-    region: content
-  field_btn_text:
-    weight: 123
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
     region: content
   path:
     type: path
