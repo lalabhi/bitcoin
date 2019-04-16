@@ -1,17 +1,17 @@
-uuid: 0705e5d3-f420-47e7-a0ac-f643f187baed
+uuid: 50be6b4a-a59a-4016-bdb7-4bdf6046b331
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - contact.form.newsletter
+    - contact.form.feedback
   module:
     - contact_block
   theme:
     - mycog
 id: contactblock
 theme: mycog
-region: footer_first
-weight: -9
+region: content
+weight: 0
 provider: null
 plugin: contact_block
 settings:
@@ -19,5 +19,9 @@ settings:
   label: 'Contact block'
   provider: contact_block
   label_display: '0'
-  contact_form: newsletter
+  contact_form: feedback
+  image:
+    - '8'
+  heading: ''
+  subheading: ''
 visibility: {  }

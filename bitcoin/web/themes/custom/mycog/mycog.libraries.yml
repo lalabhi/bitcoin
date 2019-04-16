@@ -1,9 +1,7 @@
 style:
   css:
     theme:
-      css/style.css: {}
-      css/customRegion.css: {}
-      css/calculator.css: {}
+      css/styles.css: {}
       css/fontawesome/css/all.css: {}
 slick:
   css:
@@ -25,4 +23,5 @@ slick-slider:
       vendor/slicktest/slick/slick.css: {}
   js: 
     vendor/slicktest/slick/slick.min.js: {}			
+
 

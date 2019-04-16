@@ -1,0 +1,21 @@
+uuid: 1e27b2ce-1dfb-4a7c-8211-0af77c4c9c6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icons
+    - paragraphs.paragraphs_type.verification
+  module:
+    - fontawesome
+id: paragraph.verification.field_icons
+field_name: field_icons
+entity_type: paragraph
+bundle: verification
+label: icons
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

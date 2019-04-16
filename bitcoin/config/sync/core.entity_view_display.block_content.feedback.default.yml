@@ -1,0 +1,24 @@
+uuid: 40b03034-44e9-42d4-8bcd-719ea8751d0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.feedback
+    - field.field.block_content.feedback.field_background
+  module:
+    - image
+id: block_content.feedback.default
+targetEntityType: block_content
+bundle: feedback
+mode: default
+content:
+  field_background:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

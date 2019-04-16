@@ -1,0 +1,25 @@
+uuid: 84a68874-6a3a-4e90-9110-4f714643d2a3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:verification:0aed0919-8d5c-4801-83f9-161c14570387'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: verification
+theme: mycog
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:0aed0919-8d5c-4801-83f9-161c14570387'
+settings:
+  id: 'block_content:0aed0919-8d5c-4801-83f9-161c14570387'
+  label: verification
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
