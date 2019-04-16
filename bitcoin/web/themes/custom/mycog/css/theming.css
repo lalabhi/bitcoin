@@ -7,8 +7,8 @@
   justify-content: space-evenly; }
 
 .contextual-region, .site-branding, .block, .block-system, .block-system-branding-block, .contextual, .logo {
-  margin-bottom: 20px;
-  margin-top: 20px; }
+  margin-bottom: 10px;
+  margin-top: 15px; }
 
 .region-header input[type=search] {
   width: 120%;
@@ -18,7 +18,7 @@
   margin-top: 29px; }
 
 .i, .better_search {
-  margin-top: 31px; }
+  margin-top: 10px; }
 
 .fa-facebook-square:before {
   content:   "";

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32353aceb876ff1e16565c5018792edd",
+    "content-hash": "f6ffcb8e67b4e4344d62cf020c3685ff",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3062,6 +3062,170 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/font_awesome",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/font_awesome.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/font_awesome-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "3efbd97e21852da26d4481eae1cd32bc5fb4c313"
+            },
+            "require": {
+                "drupal/core": "^8.5",
+                "drupal/lp_fontawesome": "^5"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1555330981",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "rodrigoaguilera",
+                    "homepage": "https://www.drupal.org/user/408170"
+                }
+            ],
+            "description": "Integrate Drupal with Font Awesome, the most popular icon set and toolkit on the web.",
+            "homepage": "https://www.drupal.org/project/font_awesome",
+            "support": {
+                "source": "https://gitlab.com/upstreamable/drupal-font-awesome",
+                "issues": "https://gitlab.com/upstreamable/drupal-font-awesome/issues"
+            }
+        },
+        {
+            "name": "drupal/fontawesome",
+            "version": "2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fontawesome.git",
+                "reference": "8.x-2.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.12.zip",
+                "reference": "8.x-2.12",
+                "shasum": "ed8ea9c5354201db2f0eac2bf8f3a4c46403f307"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.12",
+                    "datestamp": "1550692543",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel.Moberly",
+                    "homepage": "https://www.drupal.org/user/1160788"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "inders",
+                    "homepage": "https://www.drupal.org/user/127640"
+                },
+                {
+                    "name": "truls1502",
+                    "homepage": "https://www.drupal.org/user/325866"
+                }
+            ],
+            "description": "The web's most popular icon set and toolkit.",
+            "homepage": "https://www.drupal.org/project/fontawesome",
+            "support": {
+                "source": "https://git.drupalcode.org/project/fontawesome"
+            }
+        },
+        {
+            "name": "drupal/lp_fontawesome",
+            "version": "5.8010.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/lp_fontawesome.git",
+                "reference": "8.x-5.8010"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/lp_fontawesome-8.x-5.8010.zip",
+                "reference": "8.x-5.8010",
+                "shasum": "b1dc1b1a6c4a83689d133abc41f061f06bb449d5"
+            },
+            "require": {
+                "drupal/core": "^8.5"
+            },
+            "suggest": {
+                "drupal/libraries_provider": "Configure version of fontawesome and load it from the local filesystem"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-5.x": "5.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-5.8010",
+                    "datestamp": "1555323185",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "rodrigoaguilera",
+                    "homepage": "https://www.drupal.org/user/408170"
+                }
+            ],
+            "description": "Defines fontawesome as library to be used with libraries provider",
+            "homepage": "https://www.drupal.org/project/lp_fontawesome",
+            "support": {
+                "source": "https://gitlab.com/upstreamable/drupal-lp-fontawesome",
+                "issues": "https://gitlab.com/upstreamable/drupal-lp-fontawesome/issues"
             }
         },
         {
@@ -7617,12 +7781,12 @@
             "version": "v1.6.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mikey179/vfsStream.git",
+                "url": "https://github.com/bovigo/vfsStream.git",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "shasum": ""
             },

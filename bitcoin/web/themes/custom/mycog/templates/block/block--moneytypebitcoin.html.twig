@@ -1,11 +1,24 @@
 {% extends "block.html.twig" %}
-{% block content %}
-  {# <div class="moneytype" style="background-image: url('{{ file_url(content.field_image['#items'].entity.uri.value) }}');">
-  </div> #}
-{{ content.field_title[0]['#context'].value }}
-{{ content.field_subtitle[0]['#context'].value }}
-{# {{ kint(content.field_image) }} #}
-{{ content.field_button_text[0]['#text'] }}
-{# {{ content.field_image[0]['#context'].value }} #}
+{% block content %}	
+  <div class="moneytype" style="background-image: url('{{ file_url(content.field_image['#items'].entity.uri.value) }}');">	  
+    <div class="money_right">
 
+   <div class="money_heading">
+{{ content.field_title[0]['#context'].value }}
+</div>
+<div class="money_subtitle">
+{{ content.field_subtitle[0]['#context'].value }}
+</div>
+<div class="money_content">
+  {{ content.body[0]['#text'] }}
+  </div>
+
+<div class="btn_wrapper">
+<div class="btn">
+{{ content.field_button_text[0]['#text'] }}
+</div>
+</div>
+</div>
+
+ </div>
 {% endblock %}
