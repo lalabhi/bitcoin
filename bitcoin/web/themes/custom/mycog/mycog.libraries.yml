@@ -5,3 +5,14 @@ style:
       css/customRegion.css: {}
       css/calculator.css: {}
       css/theming.css: {}
+  js:
+    js/testslider.js: {}
+  dependencies:
+    - mycog/slick-slider
+
+slick-slider:
+  css: 
+    theme:
+      vendor/slicktest/slick/slick.css: {}
+  js: 
+    vendor/slicktest/slick/slick.min.js: {}			
