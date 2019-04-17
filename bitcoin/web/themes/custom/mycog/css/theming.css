@@ -109,6 +109,8 @@
     color: #dfcaa1; }
   .nav-tabs:hover {
     color: #3371b7; }
+  .region-footer-first {
+    background-color: black; }
   .pre_content_region,
   .content_region, .post_content_region, .footer_first_region, .footer_second_region {
     width: 100%; } }
