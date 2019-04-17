@@ -3114,6 +3114,7 @@
             }
         },
         {
+
             "name": "drupal/fontawesome",
             "version": "2.12.0",
             "source": {

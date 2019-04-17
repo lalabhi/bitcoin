@@ -1,0 +1,21 @@
+uuid: 7183b5a5-eddd-40c8-bffe-e838b26486f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_form
+    - paragraphs.paragraphs_type.feedback
+id: paragraph.feedback.field_form
+field_name: field_form
+entity_type: paragraph
+bundle: feedback
+label: form
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

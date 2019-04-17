@@ -1,0 +1,22 @@
+uuid: 51e657c2-08ed-4969-8770-1d823f74c6b9
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - mycog
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: mycog_search
+theme: mycog
+region: header
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }
