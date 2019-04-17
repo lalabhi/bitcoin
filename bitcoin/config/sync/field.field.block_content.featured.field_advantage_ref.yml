@@ -1,0 +1,40 @@
+uuid: b9052cb3-cf1d-4dc3-a23d-010534d34bbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured
+    - field.storage.block_content.field_advantage_ref
+    - paragraphs.paragraphs_type.advantages
+  module:
+    - entity_reference_revisions
+id: block_content.featured.field_advantage_ref
+field_name: field_advantage_ref
+entity_type: block_content
+bundle: featured
+label: 'advantage ref'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      advantages: advantages
+    target_bundles_drag_drop:
+      advantages:
+        enabled: true
+        weight: 5
+      icons:
+        weight: 6
+        enabled: false
+      slider:
+        weight: 7
+        enabled: false
+      verification:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

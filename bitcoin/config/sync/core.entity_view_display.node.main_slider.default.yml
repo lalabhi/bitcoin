@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.main_slider.body
     - field.field.node.main_slider.field_bg_image
-    - field.field.node.main_slider.field_btn_text
     - node.type.main_slider
   module:
     - image
@@ -32,16 +31,10 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_btn_text:
-    weight: 103
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   links:
     weight: 100
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_btn_text: true

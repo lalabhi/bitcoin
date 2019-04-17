@@ -1,0 +1,21 @@
+uuid: e1c939fa-1f36-4226-896d-197bb969565f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.feedback.field_form
+    - paragraphs.paragraphs_type.feedback
+id: paragraph.feedback.default
+targetEntityType: paragraph
+bundle: feedback
+mode: default
+content:
+  field_form:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

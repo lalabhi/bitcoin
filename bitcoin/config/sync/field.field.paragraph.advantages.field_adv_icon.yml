@@ -1,0 +1,21 @@
+uuid: 3213fcac-864e-49c1-a9c9-f1aee0fa4899
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_adv_icon
+    - paragraphs.paragraphs_type.advantages
+  module:
+    - fontawesome
+id: paragraph.advantages.field_adv_icon
+field_name: field_adv_icon
+entity_type: paragraph
+bundle: advantages
+label: adv_icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

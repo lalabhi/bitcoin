@@ -50,14 +50,17 @@ settings:
           items:
             - ShowBlocks
             - Source
+            - Styles
   plugins:
     stylescombo:
-      styles: ''
+      styles: "h1.title1| choose\r\nh1.title2| Progress\r\nh1.title3| Success\r\nh1.title4| Rent\r\nh1.title5| Invest\r\nh5.btn1| Join Us\r\nh5.btn2| Our Services\r\nh5.btn3| About Us\r\n"
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

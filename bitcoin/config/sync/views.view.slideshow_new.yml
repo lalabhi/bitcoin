@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.body
     - field.storage.node.field_bg_image
-    - field.storage.node.field_btn_text
     - node.type.main_slider
   module:
     - image
@@ -79,8 +79,8 @@ display:
           skin: ''
           layout: ''
           caption:
+            body: body
             field_bg_image: '0'
-            field_btn_text: '0'
           optionset_thumbnail: ''
           skin_thumbnail: ''
           grid_header: ''
@@ -99,8 +99,8 @@ display:
           override: true
           overridables:
             arrows: arrows
-            autoplay: autoplay
             dots: dots
+            autoplay: '0'
             draggable: '0'
             infinite: '0'
             mouseWheel: '0'
@@ -175,10 +175,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_btn_text:
-          id: field_btn_text
-          table: node__field_btn_text
-          field: field_btn_text
+        body:
+          id: body
+          table: node__body
+          field: body
           relationship: none
           group_type: group
           admin_label: ''
@@ -275,8 +275,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_bg_image'
-        - 'config:field.storage.node.field_btn_text'
   block_1:
     display_plugin: block
     id: block_1
@@ -293,5 +293,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_bg_image'
-        - 'config:field.storage.node.field_btn_text'

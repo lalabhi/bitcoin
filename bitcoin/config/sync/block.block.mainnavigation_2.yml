@@ -1,4 +1,4 @@
-uuid: 6c66aa0e-908a-4525-ba41-9af0478d0b38
+uuid: ea3630dd-e4c0-4216-8a84-ff18cbf5a76b
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: mainnavigation_2
 theme: mycog
 region: menubar
-weight: -11
+weight: 0
 provider: null
 plugin: 'we_megamenu_block:main'
 settings:
