@@ -1,21 +1,21 @@
-uuid: 594e993d-c341-4ce7-9762-89648fe26866
+uuid: 43c6adee-4e34-4130-a938-c309d6a53865
 langcode: en
-status: true
+status: false
 dependencies:
   config:
-    - views.view.slideshow_owl
+    - views.view.branding
   module:
     - views
   theme:
     - mycog
-id: views_block__slideshow_owl_block_1
+id: views_block__branding_block_1
 theme: mycog
-region: pre_content
+region: post_content
 weight: 0
 provider: null
-plugin: 'views_block:slideshow_owl-block_1'
+plugin: 'views_block:branding-block_1'
 settings:
-  id: 'views_block:slideshow_owl-block_1'
+  id: 'views_block:branding-block_1'
   label: ''
   provider: views
   label_display: visible

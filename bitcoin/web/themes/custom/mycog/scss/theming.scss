@@ -9,10 +9,13 @@
   justify-content: space-evenly;
   //margin-top: 33px;
 }
-.contextual-region,.site-branding,.block,.block-system,.block-system-branding-block,.contextual,.logo{
-  margin-bottom: 10px;
-  margin-top: 15px;
-}
+  .header_region{
+    .contextual-region,.site-branding,.block,.block-system,.block-system-branding-block,.contextual,.logo{
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+  }
+
 .container-fluid{
   background-color: white;
 }
@@ -141,7 +144,7 @@ margin-left: -10px;
   }
 }
 .contacts.social{
-  margin-top: 40px;
+  margin-top: 6%;
   font-size: 34px;
   border:none;
 }
@@ -168,4 +171,54 @@ margin-left: -10px;
   .region-header input[type=search]{
     display: none;
   }
+}
+
+.social h3 .title{
+  display: none;
+}
+.dark a .svg-inline--fa{
+  border:1px solid;
+  border-color: gainsboro;
+  width:56px;
+  height:61px;
+  padding:9px 12px;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+}
+svg.svg-inline--fa.fa-facebook-f.fa-w-9{
+  color: #3b5998;
+
+}
+svg.svg-inline--fa.fa-facebook-f.fa-w-9:hover {
+  color: white;
+  background-color: #3b5998;
+}
+svg.svg-inline--fa.fa-twitter.fa-w-16{
+  color: #1da1f2;
+}
+svg.svg-inline--fa.fa-twitter.fa-w-16:hover{
+  color: white;
+  background-color: #1da1f2;
+}
+svg.svg-inline--fa.fa-google-plus-square.fa-w-14{
+  color: #DD4B39;
+}
+svg.svg-inline--fa.fa-google-plus-square.fa-w-14:hover{
+  color: white;
+  background-color: #DD4B39;
+}
+svg.svg-inline--fa.fa-linkedin.fa-w-14{
+  color: #0077B5;
+}
+svg.svg-inline--fa.fa-linkedin.fa-w-14:hover{
+  background-color: #0077B5;
+  color: white;
+}
+svg.svg-inline--fa.fa-youtube.fa-w-18{
+  color: #c4302b;
+}
+svg.svg-inline--fa.fa-youtube.fa-w-18:hover{
+  background-color: #c4302b;
+  color: white;
 }

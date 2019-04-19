@@ -4,7 +4,7 @@
     Drupal.behaviors.slider = {
         attach: function (context, settings) {
             jQuery(document).ready(function($) {
-           // alert("trupti");
+            alert("hello");
            //$('')
         });
     },

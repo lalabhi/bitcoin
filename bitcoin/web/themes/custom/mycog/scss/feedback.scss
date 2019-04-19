@@ -113,11 +113,17 @@
     color: $white;
     font-size: inherit;
     position: center;
-    margin-top: 3%;
-    margin-left: 43%;
+    display: block;
+    margin: 0 auto;
     max-height: 61px;
+    margin-top: 3%;
     height: 50%;
 
+  }
+}
+.feedbackform-wrapper{
+  input[type=submit]:hover {
+    background-color: $button-color-onhover ;
   }
 }
 @media screen and(max-width: $screen-mobile ) {

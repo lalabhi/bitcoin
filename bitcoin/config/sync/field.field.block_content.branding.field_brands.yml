@@ -1,0 +1,46 @@
+uuid: 3a8e53d4-869a-4ae4-a802-9d2781508f87
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.branding
+    - field.storage.block_content.field_brands
+    - paragraphs.paragraphs_type.brands
+  module:
+    - entity_reference_revisions
+id: block_content.branding.field_brands
+field_name: field_brands
+entity_type: block_content
+bundle: branding
+label: brands
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      brands: brands
+    target_bundles_drag_drop:
+      advantages:
+        weight: 7
+        enabled: false
+      brands:
+        enabled: true
+        weight: 8
+      feedback:
+        weight: 9
+        enabled: false
+      icons:
+        weight: 10
+        enabled: false
+      slider:
+        weight: 11
+        enabled: false
+      verification:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

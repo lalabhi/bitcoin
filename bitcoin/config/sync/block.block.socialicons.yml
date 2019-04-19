@@ -1,15 +1,15 @@
-uuid: 9186ff5f-ad35-42f3-841d-2c5630ae4607
+uuid: a27f3a09-038b-48c7-b705-0672f608d60b
 langcode: en
 status: true
 dependencies:
   module:
     - social_icons
   theme:
-    - bartik
+    - mycog
 id: socialicons
-theme: bartik
-region: secondary_menu
-weight: -7
+theme: mycog
+region: header
+weight: -14
 provider: null
 plugin: social_icons_block
 settings:
@@ -19,7 +19,7 @@ settings:
   label_display: '0'
   facebook_icon: www.facebook.com
   twitter_icon: www.twitter.com
-  google_plus_icon: www.plus.google.com
+  google_plus_icon: www.googleplus.com
   instragram_icon: ''
   telegram_icon: ''
   linkedin_icon: www.linkedin.com

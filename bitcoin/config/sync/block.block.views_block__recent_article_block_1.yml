@@ -1,21 +1,21 @@
-uuid: 88cfae6b-e2fb-44f3-93a7-300a834db366
+uuid: ca02f29a-a219-46f2-aab7-2da5637df0e9
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.slideshow_new
+    - views.view.recent_article
   module:
     - views
   theme:
     - mycog
-id: views_block__slideshow_new_block_1
+id: views_block__recent_article_block_1
 theme: mycog
-region: pre_content
-weight: 0
+region: footer_first
+weight: -13
 provider: null
-plugin: 'views_block:slideshow_new-block_1'
+plugin: 'views_block:recent_article-block_1'
 settings:
-  id: 'views_block:slideshow_new-block_1'
+  id: 'views_block:recent_article-block_1'
   label: ''
   provider: views
   label_display: '0'

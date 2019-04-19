@@ -21,7 +21,7 @@ settings:
   label_display: '0'
   contact_form: feedback
   image:
-    - '8'
-  heading: ''
-  subheading: ''
+    - '18'
+  heading: 'GET A'
+  subheading: 'Free Quote'
 visibility: {  }

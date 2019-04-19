@@ -1,9 +1,9 @@
-uuid: 175ddd91-848b-4ae8-ac9f-744a25b132a0
+uuid: a4f0a29e-9353-40c2-8a22-2fc6ce3c0f28
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:branding:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+    - 'block_content:branding:afd7e7b9-e7a1-4a66-964c-13309b54cc15'
   module:
     - block_content
   theme:
@@ -11,12 +11,12 @@ dependencies:
 id: branding_2
 theme: mycog
 region: post_content
-weight: -11
+weight: 0
 provider: null
-plugin: 'block_content:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
+plugin: 'block_content:afd7e7b9-e7a1-4a66-964c-13309b54cc15'
 settings:
-  id: 'block_content:f90d815b-da35-4cac-b8c6-e7bd78c0dee6'
-  label: Branding
+  id: 'block_content:afd7e7b9-e7a1-4a66-964c-13309b54cc15'
+  label: BRANDING
   provider: block_content
   label_display: '0'
   status: true
