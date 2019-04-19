@@ -2,16 +2,12 @@ uuid: b18b009e-02ce-4394-9ab2-cc73d06b1460
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:basic:d7622f6a-89a6-4f71-9eb4-8e000c1def64'
-  module:
-    - block_content
   theme:
     - mycog
 id: loremipsumdolorsitametconsectet
 theme: mycog
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: 'block_content:d7622f6a-89a6-4f71-9eb4-8e000c1def64'
 settings:

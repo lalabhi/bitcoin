@@ -1,4 +1,4 @@
-uuid: 21a38890-26ac-4ed2-91c3-222d11ae24e1
+uuid: a79da366-1f72-4174-8f9a-df94938fd9ff
 langcode: en
 status: true
 dependencies:
@@ -8,18 +8,18 @@ dependencies:
     - mycog
 id: socialicons_2
 theme: mycog
-region: header
-weight: -11
+region: footer_first
+weight: -15
 provider: null
 plugin: social_icons_block
 settings:
   id: social_icons_block
   label: 'Social Icons'
   provider: social_icons
-  label_display: '0'
+  label_display: visible
   facebook_icon: www.facebook.com
   twitter_icon: www.twitter.com
-  google_plus_icon: www.plus.google.com
+  google_plus_icon: www.googleplus.com
   instragram_icon: ''
   telegram_icon: ''
   linkedin_icon: www.linkedin.com

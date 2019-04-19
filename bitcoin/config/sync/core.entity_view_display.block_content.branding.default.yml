@@ -4,21 +4,21 @@ status: true
 dependencies:
   config:
     - block_content.type.branding
-    - field.field.block_content.branding.field_brand
+    - field.field.block_content.branding.field_brands
   module:
-    - image
+    - entity_reference_revisions
 id: block_content.branding.default
 targetEntityType: block_content
 bundle: branding
 mode: default
 content:
-  field_brand:
-    weight: 1
+  field_brands:
+    type: entity_reference_revisions_entity_view
+    weight: 0
     label: above
     settings:
-      image_style: ''
-      image_link: ''
+      view_mode: default
+      link: ''
     third_party_settings: {  }
-    type: image
     region: content
 hidden: {  }

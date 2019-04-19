@@ -1,0 +1,24 @@
+uuid: b258a9ed-83a6-4a7b-9e1d-e2442ca96f62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.brands.field_brands
+    - paragraphs.paragraphs_type.brands
+  module:
+    - image
+id: paragraph.brands.default
+targetEntityType: paragraph
+bundle: brands
+mode: default
+content:
+  field_brands:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

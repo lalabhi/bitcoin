@@ -1,18 +1,4 @@
-@media screen and(max-width: $screen-tablet ) {
-  #converter-form{
-    .js-form-type-textfield,
-    .js-form-type-select {
-      width: 50%;
-    }
-  }
-  .description{
-    margin-top: 11%;
-  }
-  .form-wrapper{
-    margin-top: 11%;
-  }
 
-}
   .main-wrapper{
     background-position: center center;
     background-repeat: no-repeat;
@@ -111,3 +97,24 @@
     margin-left: 14px;
   }}
 
+  @media screen and(max-width: $screen-tablet ) {
+    #converter-form {
+      .js-form-type-textfield,
+      .js-form-type-select {
+        width: 50%;
+      }
+    }
+    .description {
+      margin-top: 11%;
+    }
+    .form-wrapper {
+      margin-top: 11%;
+    }
+    #converter-form {
+      .form-type-select {
+        .form-select {
+          width: 93%;
+        }
+      }
+    }
+  }

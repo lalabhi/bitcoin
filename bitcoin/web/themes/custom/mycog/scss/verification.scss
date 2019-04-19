@@ -141,6 +141,24 @@ foreignObject>div{
   }
 }
 
+
+.verification-wrapper{.value:hover, .value2:hover, .value3:hover {.fontawesome-icons {
+  transform: scale(1.4);
+}}}
+.verification-wrapper{
+
+    a{
+      color: #333333;
+    }
+
+}
+.verification-wrapper{
+
+    a:hover{
+      text-decoration: none;
+    }
+
+}
 @media screen and(max-width: $screen-tablet ) {
   .arrow, .arrow2{
     width: 14%;

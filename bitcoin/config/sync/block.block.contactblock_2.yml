@@ -1,0 +1,27 @@
+uuid: e7ce4926-5420-49b3-9715-bb8f60bb8397
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.newsletter
+  module:
+    - contact_block
+  theme:
+    - mycog
+id: contactblock_2
+theme: mycog
+region: footer_first
+weight: -12
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: visible
+  contact_form: newsletter
+  image:
+    - '37'
+  heading: Newsletter
+  subheading: 'Subscribe to our mailing list to receive new updates and special offers:'
+visibility: {  }

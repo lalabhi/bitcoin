@@ -1,12 +1,12 @@
-uuid: c2c0cc6b-47b7-4d3f-b3fb-af168ab58434
+uuid: 672793af-0b4f-46b7-9371-326ea1652a2b
 langcode: en
 status: true
 dependencies:
   module:
-    - contact
-id: contact_message.field_body
-field_name: field_body
-entity_type: contact_message
+    - block_content
+id: block_content.field_description
+field_name: field_description
+entity_type: block_content
 type: string_long
 settings:
   case_sensitive: false

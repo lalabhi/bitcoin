@@ -11,7 +11,7 @@ _core:
 id: mycog_powered
 theme: mycog
 region: header
-weight: 3
+weight: -2
 provider: null
 plugin: system_powered_by_block
 settings:
