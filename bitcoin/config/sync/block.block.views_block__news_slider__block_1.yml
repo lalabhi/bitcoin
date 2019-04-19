@@ -1,21 +1,21 @@
-uuid: 6220c627-41b4-463f-a2dc-d04d46f8325a
+uuid: 12e79841-d048-46b6-8135-c5dc583b105d
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - views.view.slideshow_new
+    - views.view.news_slider_
   module:
     - views
   theme:
     - mycog
-id: views_block__slideshow_new_block_1_2
+id: views_block__news_slider__block_1
 theme: mycog
-region: pre_content
+region: content
 weight: 0
 provider: null
-plugin: 'views_block:slideshow_new-block_1'
+plugin: 'views_block:news_slider_-block_1'
 settings:
-  id: 'views_block:slideshow_new-block_1'
+  id: 'views_block:news_slider_-block_1'
   label: ''
   provider: views
   label_display: visible

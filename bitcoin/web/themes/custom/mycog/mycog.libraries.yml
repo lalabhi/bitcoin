@@ -1,10 +1,10 @@
 style:
   css:
     theme:
-      css/style.css: {}
-      css/customRegion.css: {}
-      css/calculator.css: {}
-      css/fontawesome/css/all.css: {}
+      css/styles.css: {}
+      # css/customRegion.css: {}
+      # css/calculator.css: {}
+      # css/fontawesome/css/all.css: {}
   # js:
   #   js/news-slider.js: {}
   # dependencies:

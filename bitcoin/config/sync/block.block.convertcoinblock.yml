@@ -1,0 +1,25 @@
+uuid: 6236e350-09bf-4fb4-be83-7efae4ce0779
+langcode: en
+status: true
+dependencies:
+  module:
+    - convertercoin
+  theme:
+    - mycog
+id: convertcoinblock
+theme: mycog
+region: content
+weight: 0
+provider: null
+plugin: coin_converter_block
+settings:
+  id: coin_converter_block
+  label: 'convertcoin Block'
+  provider: convertercoin
+  label_display: visible
+  heading: BITCOIN
+  subheading: 'Currency Calculator'
+  description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut laboret dolore magna aliquyam erat, sed diam voluptua.'
+  image:
+    - '15'
+visibility: {  }

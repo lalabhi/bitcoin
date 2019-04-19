@@ -1,6 +1,9 @@
 {% extends "block.html.twig" %}
 {% block content %}	
+<div class="news-wrapper">
+
 {{ content}}
-{{ kint(content['#view']) }}
+</div>
+{{ kint(content['#title']) }}
 
 {% endblock %}
