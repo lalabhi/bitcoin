@@ -4,8 +4,15 @@
     Drupal.behaviors.slider = {
         attach: function (context, settings) {
             jQuery(document).ready(function($) {
-            alert("hello");
-           //$('')
+           // alert("trupti");
+            $('.region-content').slick({
+                infinite:true,
+                dots:true,
+                speed:300,
+                slidesToShow:1,
+                arrows: false,
+                appendDots:$(".region-content"),
+            })
         });
     },
     };

@@ -1,6 +1,10 @@
 style:
   css:
     theme:
+      css/style.css: {}
+      css/customRegion.css: {}
+      css/calculator.css: {}
+      css/theming.css: {} 
       css/styles.css: {}
       css/fontawesome/css/all.css: {}
   js:

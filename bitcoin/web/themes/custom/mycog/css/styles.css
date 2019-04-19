@@ -109,6 +109,8 @@
     color: #dfcaa1; }
   .nav-tabs:hover {
     color: #3371b7; }
+  .region-footer-first {
+    background-color: black; }
   .pre_content_region,
   .content_region, .post_content_region, .footer_first_region, .footer_second_region {
     width: 100%; } }
@@ -117,6 +119,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .region-header input[type=search] {
     display: none; } }
+
 
 .social h3 .title {
   display: none; }
@@ -165,6 +168,14 @@ svg.svg-inline--fa.fa-youtube.fa-w-18 {
 svg.svg-inline--fa.fa-youtube.fa-w-18:hover {
   background-color: #c4302b;
   color: white; }
+@media screen and (max-width: 768px) {
+  #converter-form .js-form-type-textfield,
+  #converter-form .js-form-type-select {
+    width: 50%; }
+  .description {
+    margin-top: 11%; }
+  .form-wrapper {
+    margin-top: 11%; } }
 
 .main-wrapper {
   background-position: center center;
