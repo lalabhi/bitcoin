@@ -11,14 +11,14 @@ dependencies:
 id: views_block__recent_article_block_1
 theme: mycog
 region: footer_first
-weight: -13
+weight: -15
 provider: null
 plugin: 'views_block:recent_article-block_1'
 settings:
   id: 'views_block:recent_article-block_1'
-  label: ''
+  label: 'Recent Blog'
   provider: views
   label_display: '0'
-  views_label: ''
+  views_label: 'Recent Blog'
   items_per_page: none
 visibility: {  }

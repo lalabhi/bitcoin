@@ -11,3 +11,221 @@
   padding-left: 15px;
    margin-bottom: 21px;
 }
+ .footer-wrapper{
+   background-color: #333333;
+   color: white;
+   height: 650px;
+   font-family: 'Raleway', sans-serif;
+ }
+.primary-footer{
+
+  display: flex;
+  text-align: center;
+  margin-top: 6%;
+}
+  .recentblogs, .footer-social-desc, .newsletters{
+    width: 90%;
+  }
+  .recentblogs, .newsletters{
+    margin-top: 12%;
+  }
+ .footer-social-desc, .newsletters{
+   margin-left: 5%
+ }
+
+.recentblogs{
+  .views-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8%;
+    .views-field-title{
+      width:100%;
+    }
+    .views-field-uid{
+      width:30%;
+    }
+    .views-field-created{
+      width:30%;
+    }
+    .views-field-field-tags{
+      width: 30%;
+    }
+  }
+}
+.recentblogs{
+  .view-content{
+  }
+}
+.footer-social-desc{
+  .field__label{
+    display: none;
+  }
+  .field--name-field-description{
+    color: grey;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .field--name-field-address{
+    .field__item{
+      font-size: 17px;
+      font-weight: 800;
+      margin-top: 15px;
+      line-height: 1.7;
+    }
+  }
+  .field--name-field-email{
+    .field__item{
+      margin-top: 19px;
+      font-size: 18px;
+      a{
+        color: $button-color-onhover;
+      }
+      a:hover{
+        color: $button-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#block-footerblock{
+  line-height: 2.5;
+}
+.field--name-field-footertitle{
+  font-size: 36px;
+}
+.contact-message-form h2{
+  font-size: 36px;
+}
+.newsletters{
+  position: relative;
+  label, .form-actions{
+    display: none;
+  }
+  input[type=email] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    height: 44px;
+    border-radius: 51px;
+    resize: vertical;
+    max-width: 367px;
+    width: 100%;
+    font-size: larger;
+    font-variant-caps: all-small-caps;
+    font-weight: 500;
+    text-align: center;
+
+
+  }
+  .form-item-field-email-0-value, p{
+    margin-top: 10%;
+  }
+  .form-item-field-email-0-value::before{
+    content: "\f0e0";
+    font-family: 'Font Awesome 5 Free';
+    padding: 11px;
+    position: absolute;
+    font-size: 17px;
+    color: $button-color;
+    margin-left: calc(100% - 12%);
+  }
+  .block-contact-block p{
+    color: grey;
+  }
+}
+.recentblogs{
+  .views-field-uid::before{
+    content: "\f007";
+    font-family: 'Font Awesome 5 Free';
+    color: $button-color;
+
+  }
+  .views-field-created::before{
+    content: "\f073";
+    font-family: 'Font Awesome 5 Free';
+    color: $button-color;
+  }
+  .views-field-field-tags{
+    .field-content::before{
+      content: "\f02b";
+      font-family: 'Font Awesome 5 Free';
+      color: $button-color;
+    }
+
+  }
+  .views-field-uid, .views-field-created, .views-field-field-tags{
+    color: white;
+    font-weight: bold;
+    font-variant-caps: petite-caps;
+    font-size: 14px;
+
+  }
+  .views-field-created:hover{
+    color: $button-color;
+
+  }
+  a{
+    color: white;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  a:hover{
+    color: $button-color;
+    text-decoration: none;
+  }
+  .views-field-title{
+    font-size: 17px;
+    opacity: 0.5;
+  }
+  .views-field-title{
+    a:hover{
+    opacity: 1;
+    color: white;
+  }
+  }
+.view-content{
+  margin-top: 10%;
+}
+}
+.block-social-icons{
+  margin-top: -24px;
+
+}
+ @media screen and(max-width: $screen-tablet )and(min-width: $screen-mobile) {
+   .primary-footer{
+     flex-wrap: wrap;
+     margin-bottom: 8% ;
+   }
+   .footer-wrapper{
+     height: auto;
+   }
+   .footer-social-desc{
+     width: 100%;
+     order: -1;
+   }
+   .recentblogs, .newsletters{
+     width:47%;
+   }
+ }
+ @media screen and(max-width: $screen-mobile ) {
+   .footer-wrapper{
+     height: auto;
+   }
+   .primary-footer{
+    flex-direction: column;
+   }
+   .recentblogs{
+     order:2;
+     margin-left: 5%;
+   }
+   .newsletters{
+     order:3;
+     margin-bottom: 10% ;
+   }
+   .footer-social-desc{
+     margin:auto;
+   }
+
+ }
+
+
+

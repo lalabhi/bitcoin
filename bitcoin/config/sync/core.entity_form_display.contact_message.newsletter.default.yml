@@ -14,7 +14,7 @@ content:
     weight: 2
     settings:
       size: 60
-      placeholder: ''
+      placeholder: 'EMAIL ADDRESS'
     third_party_settings: {  }
     type: email_default
     region: content

@@ -27,7 +27,7 @@ content:
     type: text_default
     region: content
   field_description:
-    weight: 5
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -38,7 +38,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    type: email_mailto
     region: content
   field_footerimage:
     weight: 0

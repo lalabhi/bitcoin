@@ -21,7 +21,7 @@ settings:
   label_display: visible
   contact_form: newsletter
   image:
-    - '37'
+    - '39'
   heading: Newsletter
   subheading: 'Subscribe to our mailing list to receive new updates and special offers:'
 visibility: {  }

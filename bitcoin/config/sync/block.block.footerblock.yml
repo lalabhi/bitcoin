@@ -18,7 +18,7 @@ settings:
   id: 'block_content:b0b48206-ac75-43cd-955b-c9c5e593227f'
   label: 'footer block'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

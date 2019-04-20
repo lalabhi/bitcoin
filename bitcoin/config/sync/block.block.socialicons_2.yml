@@ -9,14 +9,14 @@ dependencies:
 id: socialicons_2
 theme: mycog
 region: footer_first
-weight: -15
+weight: -13
 provider: null
 plugin: social_icons_block
 settings:
   id: social_icons_block
   label: 'Social Icons'
   provider: social_icons
-  label_display: visible
+  label_display: '0'
   facebook_icon: www.facebook.com
   twitter_icon: www.twitter.com
   google_plus_icon: www.googleplus.com
