@@ -16,6 +16,22 @@
 #}
 {% if content %}
   <div{{ attributes }}>
-    {{ content }}
+    <div class="footer-wrapper" style="background-image: url('{{ file_url("public://my_files/footer-texture_1.png") }}');">
+    <div class="container">
+      <div class="primary-footer">
+        <div class="recentblogs">
+          <h1>Recent Blogs</h1>
+          {{ elements.views_block__recent_article_block_1 }}
+        </div>
+        <div class="footer-social-desc">
+          {{elements.footerblock}}
+          {{ elements.socialicons_2 }}
+        </div>
+        <div class="newsletters">{{ elements.contactblock_2 }}</div>
+
+      </div>
+    </div>
+    </div>
+
   </div>
 {% endif %}
