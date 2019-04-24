@@ -11,14 +11,14 @@ dependencies:
 id: views_block__news_slider__block_1
 theme: mycog
 region: content
-weight: 0
+weight: -13
 provider: null
 plugin: 'views_block:news_slider_-block_1'
 settings:
   id: 'views_block:news_slider_-block_1'
-  label: ''
+  label: 'News & Events'
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: 'News & Events'
   items_per_page: none
 visibility: {  }

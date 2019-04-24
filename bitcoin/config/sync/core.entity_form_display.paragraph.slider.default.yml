@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.slider.field_about
+    - field.field.paragraph.slider.field_blockquoteicon
     - field.field.paragraph.slider.field_name
     - field.field.paragraph.slider.field_person
     - field.field.paragraph.slider.field_sta
@@ -11,6 +12,7 @@ dependencies:
     - image.style.thumbnail
     - paragraphs.paragraphs_type.slider
   module:
+    - fontawesome
     - image
     - starrating
 id: paragraph.slider.default
@@ -25,6 +27,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
+    region: content
+  field_blockquoteicon:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
     region: content
   field_name:
     weight: 1

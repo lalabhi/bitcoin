@@ -60,11 +60,14 @@ class convertercoins extends BlockBase {
     $this->configuration['description'] = $form_state->getValue('description');
     $this->configuration['image']= $form_state->getValue('upload');
     $image =  $form_state->getValue('upload');
-    $file = \Drupal\file\Entity\File::load( $image[0] );
-    /* Set the status flag permanent of the file object */
-    $file->setPermanent();
-    /* Save the file in database */
-    $file->save();
+    if(isset($image)){
+      $file = \Drupal\file\Entity\File::load( $image[0] );
+      /* Set the status flag permanent of the file object */
+      $file->setPermanent();
+      /* Save the file in database */
+      $file->save();
+    }
+
   }
 
 }

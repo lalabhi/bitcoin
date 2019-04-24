@@ -1,0 +1,26 @@
+uuid: e60460ee-5efb-4adc-94d8-d4200b38c403
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.brands.field_brands
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.brands
+  module:
+    - image
+id: paragraph.brands.default
+targetEntityType: paragraph
+bundle: brands
+mode: default
+content:
+  field_brands:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true

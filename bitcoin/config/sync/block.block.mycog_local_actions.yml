@@ -1,6 +1,6 @@
 uuid: c3b5a00f-6f28-44ee-a28b-1f3e8be2e8a2
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - mycog

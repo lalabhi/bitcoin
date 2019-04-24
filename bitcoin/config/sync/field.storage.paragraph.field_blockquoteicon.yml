@@ -1,0 +1,19 @@
+uuid: d545d09c-9c1f-4c58-b5f2-0e3897e593af
+langcode: en
+status: true
+dependencies:
+  module:
+    - fontawesome
+    - paragraphs
+id: paragraph.field_blockquoteicon
+field_name: field_blockquoteicon
+entity_type: paragraph
+type: fontawesome_icon
+settings: {  }
+module: fontawesome
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

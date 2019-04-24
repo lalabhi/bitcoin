@@ -9,7 +9,7 @@ dependencies:
 id: searchform
 theme: mycog
 region: header
-weight: 0
+weight: -12
 provider: null
 plugin: search_form_block
 settings:

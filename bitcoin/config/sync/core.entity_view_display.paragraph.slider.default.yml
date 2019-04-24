@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.slider.field_about
+    - field.field.paragraph.slider.field_blockquoteicon
     - field.field.paragraph.slider.field_name
     - field.field.paragraph.slider.field_person
     - field.field.paragraph.slider.field_sta
     - field.field.paragraph.slider.field_subtitle
+    - image.style.testimonialimage
     - paragraphs.paragraphs_type.slider
   module:
+    - fontawesome
     - image
     - starrating
 id: paragraph.slider.default
@@ -19,14 +22,22 @@ mode: default
 content:
   field_about:
     weight: 4
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
+  field_blockquoteicon:
+    weight: 5
+    label: hidden
+    settings:
+      layers: 0
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
   field_name:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -34,16 +45,16 @@ content:
     region: content
   field_person:
     weight: 0
-    label: above
+    label: hidden
     settings:
-      image_style: ''
+      image_style: testimonialimage
       image_link: ''
     third_party_settings: {  }
     type: image
     region: content
   field_sta:
     weight: 3
-    label: above
+    label: hidden
     settings:
       fill_blank: 0
       icon_type: star
@@ -53,7 +64,7 @@ content:
     region: content
   field_subtitle:
     weight: 2
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

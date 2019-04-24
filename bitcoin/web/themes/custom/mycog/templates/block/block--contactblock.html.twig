@@ -1,1 +1,26 @@
 {% extends "block.html.twig" %}
+{% block content %}
+  <div class="contact-form-wrapper" style="background-image:url('{{ file_url(content['#image']) }}')">
+    <div class="container">
+      <div class="headercontainer">
+        <div class="header1">
+          <h3>{{ content['#title'] }}</h3>
+        </div>
+        <div class="header2">
+          <h1>{{ content['#subtitle'] }}</h1>
+        </div>
+      </div>
+      <div class="feedbackform-wrapper">
+        <div class="form-wrapper2">
+          {{ content.field_name }}
+          {{ content.field_emailid }}
+          {{ content.field_subject }}
+        </div>
+
+        {{ content.field_question }}
+        {{ content.actions.submit }}
+      </div>
+
+    </div>
+  </div>
+{% endblock %}

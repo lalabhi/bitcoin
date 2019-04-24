@@ -11,7 +11,7 @@ dependencies:
 id: loremipsumdolorsitametconsectet
 theme: mycog
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: 'block_content:d7622f6a-89a6-4f71-9eb4-8e000c1def64'
 settings:

@@ -4,22 +4,25 @@ status: true
 dependencies:
   config:
     - block_content.type.branding
-    - field.field.block_content.branding.field_brand
-    - image.style.thumbnail
+    - field.field.block_content.branding.field_brands
   module:
-    - image
+    - paragraphs
 id: block_content.branding.default
 targetEntityType: block_content
 bundle: branding
 mode: default
 content:
-  field_brand:
-    weight: 27
+  field_brands:
+    type: entity_reference_paragraphs
+    weight: 26
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
-    type: image_image
     region: content
   info:
     type: string_textfield

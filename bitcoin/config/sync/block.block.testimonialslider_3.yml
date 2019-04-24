@@ -1,0 +1,25 @@
+uuid: 7b6cece3-1590-4088-bbf2-c2d9def14b26
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:slider:86968923-ce1f-4c99-bead-5ff78cdaee16'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: testimonialslider_3
+theme: mycog
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:86968923-ce1f-4c99-bead-5ff78cdaee16'
+settings:
+  id: 'block_content:86968923-ce1f-4c99-bead-5ff78cdaee16'
+  label: 'Testimonial Slider'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

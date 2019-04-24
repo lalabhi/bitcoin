@@ -1,0 +1,25 @@
+uuid: 475162e8-b430-491f-97fc-80f024b0352a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:892712d2-e8ea-4653-8f42-1d8fa3ef594b'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: footerblock
+theme: mycog
+region: footer_first
+weight: -17
+provider: null
+plugin: 'block_content:892712d2-e8ea-4653-8f42-1d8fa3ef594b'
+settings:
+  id: 'block_content:892712d2-e8ea-4653-8f42-1d8fa3ef594b'
+  label: 'footer block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

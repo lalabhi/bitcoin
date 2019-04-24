@@ -53,7 +53,7 @@ settings:
             - Styles
   plugins:
     stylescombo:
-      styles: "h1.title1| choose\r\nh1.title2| Progress\r\nh1.title3| Success\r\nh1.title4| Rent\r\nh1.title5| Invest\r\nh5.btn1| Join Us\r\nh5.btn2| Our Services\r\nh5.btn3| About Us\r\n"
+      styles: "h1.title1| choose\r\nh1.title2| Progress\r\nh1.title3| Success\r\nh1.title4| Rent\r\nh1.title5| Invest\r\nh5.btn1| Join Us\r\nh5.btn2| Our Services\r\nh5.btn3| About Us\r\nh2.title|mtitle\r\nh2.subtitle|msubtitle\r\nh2.content|mcontent\r\nh2.btn|mbtn"
     language:
       language_list: un
 image_upload:

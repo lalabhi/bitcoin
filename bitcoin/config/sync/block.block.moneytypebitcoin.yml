@@ -11,14 +11,14 @@ dependencies:
 id: moneytypebitcoin
 theme: mycog
 region: content
-weight: 0
+weight: -12
 provider: null
 plugin: 'block_content:9285536b-77f9-4998-99b3-055e640bdcd0'
 settings:
   id: 'block_content:9285536b-77f9-4998-99b3-055e640bdcd0'
   label: 'money type bitcoin'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

@@ -1,0 +1,25 @@
+uuid: 71a42ab2-1c20-40f1-b9c0-2e4cb704bc21
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:verification:5f78d82a-5107-46a2-a177-3c5b98fa2267'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: verification
+theme: mycog
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:5f78d82a-5107-46a2-a177-3c5b98fa2267'
+settings:
+  id: 'block_content:5f78d82a-5107-46a2-a177-3c5b98fa2267'
+  label: verification
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

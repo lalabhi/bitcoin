@@ -1,0 +1,229 @@
+.verification-wrapper{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  p{
+  font-size: 18px;
+  }
+  .value{
+    width:27%;
+    svg{
+      height: 170px;
+      width: 170px;
+      div {
+        color: $button-color;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 100px;
+      }
+    }
+  }
+  .value2{
+    width: 27%;
+    svg{
+      height: 170px;
+      width: 170px;
+      div {
+        color: $orange;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 100px;
+      }
+    }
+  }
+  .value3{
+    width: 27%;
+    svg{
+      height: 170px;
+      width: 170px;
+      div {
+        color: $button-color-onhover;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 100px;
+      }
+    }
+  }
+  .value h3:hover{
+    color: $button-color;
+  }
+  .value2 h3:hover{
+    color: $orange;
+  }
+  .value3 h3:hover{
+    color: $button-color-onhover;
+  }
+}
+
+circle {
+  fill: transparent;
+  stroke: grey;
+  stroke-width: 0.2;
+}
+.dashed {
+  stroke-dasharray: 8, 8.5;
+}
+
+.arrow,
+.arrow2 {
+  position: absolute;
+  width: 21%;
+  height: 9%;
+  top: 21%;
+  img{
+    width: 59%;
+  }
+}
+
+.arrow {
+  left: 26%;
+  transform: rotate(44deg);
+}
+
+.arrow2{
+  right: 23%;
+  transform: scaleX(-1);
+  img{
+    transform: rotate(225deg);
+  }
+}
+foreignObject>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+  .verification-wrapper {
+    .value {
+      svg {
+        foreignObject{
+          div{
+            svg{
+                height: 31px;
+            }
+          }
+        }
+       }
+    }
+  }
+.verification-wrapper {
+  .value2 {
+    svg {
+      foreignObject{
+        div{
+          svg{
+            height: 31px;
+          }
+        }
+      }
+    }
+  }
+}
+.verification-wrapper {
+  .value3 {
+    svg {
+      foreignObject{
+        div{
+          svg{
+            height: 31px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.verification-wrapper{.value:hover, .value2:hover, .value3:hover {.fontawesome-icons {
+  transform: scale(1.4);
+}}}
+.verification-wrapper{
+
+    a{
+      color: #333333;
+    }
+
+}
+.verification-wrapper{
+
+    a:hover{
+      text-decoration: none;
+    }
+
+}
+@media screen and(max-width: $screen-tablet ) {
+  .arrow, .arrow2{
+    width: 14%;
+  }
+  .arrow{
+    left: 28%;
+  }
+  .arrow2{
+    right: 27%;
+  }
+}
+@media screen and(max-width: $screen-mobile){
+  .verification-wrapper{
+    flex-direction: column;
+    .value, .value2, .value3{
+      width:100%;
+    }
+  }
+  .verification-wrapper{
+    .value{
+      margin-top: 14%;
+    }
+  }
+  .verification-wrapper{
+    .value2, .value3{
+      margin-top: 47%;
+    }
+  }
+  .verification-wrapper{
+    .arrow {
+      width:60%;
+      transform: rotate(139deg);
+      margin-top: 34%;
+      margin-left: -6%;
+
+    }
+  }
+  .verification-wrapper {
+    .arrow2 {
+      width: 60%;
+      transform: rotate(228deg);
+      margin-right: -5%;
+      top: 65%;
+      img{
+        transform: scaleX(-1);
+
+      }
+    }
+  }
+  /*.verification-wrapper{
+    .value {
+      svg{
+        div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          svg{
+            height: 30px;
+          }
+        }
+      }
+    }
+  } */
+
+
+
+}

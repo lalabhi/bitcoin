@@ -1,0 +1,24 @@
+uuid: ef97f4f9-cac8-4fa3-b7a7-afccef49e2a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.feedback.field_form
+    - paragraphs.paragraphs_type.feedback
+id: paragraph.feedback.default
+targetEntityType: paragraph
+bundle: feedback
+mode: default
+content:
+  field_form:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

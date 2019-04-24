@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - block_content.type.basic
-    - field.field.block_content.basic.body
     - field.field.block_content.basic.field_address
+    - field.field.block_content.basic.field_description
     - field.field.block_content.basic.field_email
     - field.field.block_content.basic.field_footerimage
     - field.field.block_content.basic.field_footertitle
@@ -20,15 +20,6 @@ targetEntityType: block_content
 bundle: basic
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: -4
-    region: content
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
   field_address:
     weight: 30
     settings:
@@ -36,6 +27,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textfield
+    region: content
+  field_description:
+    weight: 31
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
     region: content
   field_email:
     weight: 26

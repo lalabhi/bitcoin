@@ -1,0 +1,24 @@
+uuid: ca02f29a-a219-46f2-aab7-2da5637df0e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_article
+  module:
+    - views
+  theme:
+    - mycog
+id: views_block__recent_article_block_1
+theme: mycog
+region: footer_first
+weight: -18
+provider: null
+plugin: 'views_block:recent_article-block_1'
+settings:
+  id: 'views_block:recent_article-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

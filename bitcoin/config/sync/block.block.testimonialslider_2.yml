@@ -7,7 +7,7 @@ dependencies:
 id: testimonialslider_2
 theme: mycog
 region: content
-weight: -11
+weight: -6
 provider: null
 plugin: 'block_content:5b6f73c6-8299-4657-9503-8425c9733e14'
 settings:

@@ -11,14 +11,14 @@ dependencies:
 id: featuredblock
 theme: mycog
 region: content
-weight: 0
+weight: -16
 provider: null
 plugin: 'block_content:dacb4370-941d-4eba-97d8-1fdb7923fad0'
 settings:
   id: 'block_content:dacb4370-941d-4eba-97d8-1fdb7923fad0'
   label: 'Featured Block'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

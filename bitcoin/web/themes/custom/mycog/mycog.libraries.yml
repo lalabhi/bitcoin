@@ -1,49 +1,23 @@
 style:
   css:
     theme:
+      css/style.css: {}
+      css/customRegion.css: {}
+      css/calculator.css: {}
+      css/theming.css: {} 
       css/styles.css: {}
-      # css/customRegion.css: {}
-      # css/calculator.css: {}
-      # css/fontawesome/css/all.css: {}
-  # js:
-  #   js/news-slider.js: {}
-  # dependencies:
-  #   - mycog/news-slick
+      css/fontawesome/css/all.css: {}
+  js:
+    js/branding.js: {}
+    js/testslider.js: {}
+  dependencies:
+    - mycog/slick-slider
 
+slick-slider:
+  css:
+    theme:
+      vendor/slicktest/slick/slick.css: {}
+  js:
+    vendor/slicktest/slick/slick.min.js: {}
 
-# slick:
-#   css:
-#     theme:
-#       css/slick.css: {}
-#       css/slick-theme.css: {}
-#       css.custom.css: {}
-#   js:
-#     js/slick.min.js: {}
-#     js/custom.js: {}
-# slick:
-#   css:
-#     theme:
-#       css/slick.css: {}
-#       css/slick-theme.css: {}
-#       css.custom.css: {}
-#   js:
-#     js/slick.min.js: {}
-#     js/custom.js: {}
-#     css/theming.css: {}
-#     js/testslider.js: {}
-#   dependencies:
-#     - mycog/slick-slider
-
-# news-slick:
-#   css: 
-#     theme:
-#       vendor/slicktest/slick/slick.css: {}
-#   js: 
-#     vendor/slicktest/slick/slick.min.js: {}	 
-# slick-slider:
-#   css: 
-#     theme:
-#       vendor/slicktest/slick/slick.css: {}
-#   js: 
-#     vendor/slicktest/slick/slick.min.js: {}			
 

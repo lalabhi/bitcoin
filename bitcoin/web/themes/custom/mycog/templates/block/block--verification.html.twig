@@ -1,0 +1,30 @@
+{% extends "block.html.twig" %}
+{% block content %}
+  <div class="verification-wrap"  style="background-color: #f7f6f6">
+    <div class="container">
+      <div class="verification-wrapper">
+        <div class="value">
+          {{ content.field_data[0] }}
+        </div>
+          <div class="arrow">
+            <img src="{{ base_path ~ directory }}/img/image.png">
+          </div>
+
+        <div class="value2">
+
+          {{ content.field_data[1] }}
+        </div>
+          <div class="arrow2">
+            <img src="{{ base_path ~ directory }}/img/image.png">
+          </div>
+
+        <div class="value3">
+
+        {{ content.field_data[2] }}
+      </div>
+      </div>
+
+
+  </div>
+  </div>
+{% endblock %}

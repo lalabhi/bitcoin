@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - block_content.type.basic
-    - field.field.block_content.basic.body
     - field.field.block_content.basic.field_address
+    - field.field.block_content.basic.field_description
     - field.field.block_content.basic.field_email
     - field.field.block_content.basic.field_footerimage
     - field.field.block_content.basic.field_footertitle
@@ -19,13 +19,6 @@ targetEntityType: block_content
 bundle: basic
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_address:
     weight: 3
     label: above
@@ -33,12 +26,19 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  field_description:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
   field_email:
     weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    type: email_mailto
     region: content
   field_footerimage:
     weight: 0

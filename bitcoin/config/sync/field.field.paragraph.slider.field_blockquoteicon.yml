@@ -1,0 +1,21 @@
+uuid: b96774e8-ff5d-40bd-90a9-77afa90af111
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_blockquoteicon
+    - paragraphs.paragraphs_type.slider
+  module:
+    - fontawesome
+id: paragraph.slider.field_blockquoteicon
+field_name: field_blockquoteicon
+entity_type: paragraph
+bundle: slider
+label: blockquoteicon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

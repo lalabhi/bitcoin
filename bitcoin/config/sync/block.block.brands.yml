@@ -1,0 +1,25 @@
+uuid: 52fc6db0-282e-4c5e-9095-13b898e42012
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:branding:db1a9165-6bb2-41a8-8601-b8c80d220448'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: brands
+theme: mycog
+region: post_content
+weight: -17
+provider: null
+plugin: 'block_content:db1a9165-6bb2-41a8-8601-b8c80d220448'
+settings:
+  id: 'block_content:db1a9165-6bb2-41a8-8601-b8c80d220448'
+  label: brands
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
