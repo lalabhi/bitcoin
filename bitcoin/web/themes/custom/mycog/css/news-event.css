@@ -1,0 +1,70 @@
+.news-wrapper {
+  width: 100%;
+  padding: 7% 10%;
+  position: relative; }
+
+.news-wrapper .owl-wrapper .owl-item {
+  border: 1px solid #e5e5e5;
+  margin: 0.3%;
+  width: 360px !important;
+  height: 700px;
+  align-items: center; }
+
+.news-wrapper .owl-wrapper .owl-item .views-field.views-field-title {
+  font-weight: 500;
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  top: 60%; }
+
+.news-wrapper .owl-wrapper .owl-item .views-field.views-field-title a {
+  color: black; }
+
+.news-wrapper .owl-wrapper .owl-item:nth-child(1) .views-field.views-field-title a:hover {
+  color: #bf3654;
+  text-decoration: none; }
+
+.news-wrapper .owl-wrapper .owl-item:nth-child(2) .views-field.views-field-title a:hover {
+  color: #f58770;
+  text-decoration: none; }
+
+.news-wrapper .owl-wrapper .owl-item:nth-child(3) .views-field.views-field-title a:hover {
+  color: #fab915;
+  text-decoration: none; }
+
+.news-wrapper .owl-wrapper .owl-item .views-field.views-field-body {
+  position: absolute;
+  width: 65%;
+  text-align: center;
+  top: 75%;
+  font-weight: 400;
+  color: #808080;
+  font-size: 16px;
+  line-height: 30px;
+  left: 17%; }
+
+.news-wrapper .owl-carousel .owl-controls.clickable {
+  position: absolute;
+  top: -5%;
+  left: 42%;
+  width: 200px; }
+
+.news-wrapper .owl-carousel .owl-pagination {
+  display: none; }
+
+.news-wrapper .owl-theme .owl-controls {
+  text-align: center; }
+
+.owl-theme .owl-controls .owl-buttons div {
+  color: black;
+  display: inline-block;
+  zoom: 1;
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: none; }

@@ -1,0 +1,26 @@
+{% extends "block.html.twig" %}
+{% block content %}
+  <div class="featured-bg" style="background-image: url('{{ file_url(content.field_adv_bgimage['#items'].entity.uri.value) }}');">
+  <div class="safe-secure">
+  {{ content.field_advantage_ref[0] }}
+  </div>
+  <div class="mobile-app">
+  {{ content.field_advantage_ref[1] }}
+  </div>
+  <div class="wallet">
+  {{ content.field_advantage_ref[2] }}
+  </div>
+  <div class="experts-support">
+  {{ content.field_advantage_ref[3] }}
+  </div>
+  <div class="instant-exchange">
+  {{ content.field_advantage_ref[4] }}
+  </div>
+  <div class="recuring-buys">
+  {{ content.field_advantage_ref[5] }}
+  </div>
+ </div>	  
+
+         
+{# {{ kint(content.field_advantage_ref[0]['#paragraph'].values.field_adv_content) }} #}
+{% endblock %}

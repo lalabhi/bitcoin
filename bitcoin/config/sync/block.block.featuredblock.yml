@@ -1,0 +1,25 @@
+uuid: 563881eb-9bab-4fdf-8375-eb870ac3a2a6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:featured:dacb4370-941d-4eba-97d8-1fdb7923fad0'
+  module:
+    - block_content
+  theme:
+    - mycog
+id: featuredblock
+theme: mycog
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:dacb4370-941d-4eba-97d8-1fdb7923fad0'
+settings:
+  id: 'block_content:dacb4370-941d-4eba-97d8-1fdb7923fad0'
+  label: 'Featured Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
