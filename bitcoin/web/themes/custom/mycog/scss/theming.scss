@@ -146,6 +146,9 @@ a:focus{
   .nav, 
   .nav-tabs{
     justify-content: center;
+    // position: fixed;
+    // width:100%;
+    // z-index:5;
   }
   .we-mega-menu-ul>.we-mega-menu-li>a:hover{
     color:#dfcaa1;
@@ -350,14 +353,6 @@ a:focus{
       background:$button-color-onhover;
       height: 71px;
       color: $white;
-      }
-      .testimonial_block_slider .slick-slide .field--name-field-about{
-        font-size: 20px;
-        line-height: 30px;
-        color: #808080;
-        font-style: italic;
-        width: 93%;
-        // margin-left: px;
       }
       // .slick-slide .field--name-field-about{
       //   font-size: 20px;
