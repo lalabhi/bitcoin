@@ -425,8 +425,15 @@
   padding: 1% 2%;
   font-size: 14px;
   font-weight: 700;
+  font-size: 14px;
   text-transform: uppercase;
-  background: none; }
+  letter-spacing: 0.2em;
+  font-family: 'Raleway', sans-serif;
+  color: #808080;
+  margin-top: 34px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 21px; }
 
 @media (min-width: 767px) {
   .news-wrapper {

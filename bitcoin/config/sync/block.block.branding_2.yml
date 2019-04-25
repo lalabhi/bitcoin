@@ -1,7 +1,13 @@
 uuid: a4f0a29e-9353-40c2-8a22-2fc6ce3c0f28
 langcode: en
-status: false
+# status: false
+# dependencies:
+status: true
 dependencies:
+  content:
+    - 'block_content:branding:afd7e7b9-e7a1-4a66-964c-13309b54cc15'
+  module:
+    - block_content
   theme:
     - mycog
 id: branding_2
